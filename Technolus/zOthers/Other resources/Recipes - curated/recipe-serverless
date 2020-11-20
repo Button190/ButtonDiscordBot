@@ -1,0 +1,235 @@
+Resources:
+MAIN: https://serverless-stack.com/
+Chat room with Node.js and Socket.io: https://grimedump.wordpress.com/2018/03/05/a-simple-chat-room-with-node-js-and-socket-io/
+See also: https://expressjs.com/
+DB Best practices: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-sort-keys.html#bp-sort-keys-version-control
+
+
++++ ACCEPT ANYTHING : ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++++ https://aws.amazon.com/blogs/developer/handling-arbitrary-http-requests-in-amazon-api-gateway/   +++
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
++++ FURTHER READING FOR SERVERLESS ECOSYSTEM BASICS : ++++++++++++++++++++++++++++++++++++++++++++++++++
++++ https://www.serverless.com/amazon-api-gateway/  ++++++++++++++++++++++++++++++++++++++++++++++++++++
++++ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+---------------------------------
+' add new api endpoint:
+' https://serverless-stack.com/chapters/add-a-get-note-api.html
+' -Add the Function (.js)
+' -Configure the API Endpoint (.yml)
+' -Test (/mocks/*.json)
+' -Invoke local: serverless invoke local --function get --path mocks/get-event.json
+---------------------------------
+
+Create aws account
+Create AIM user
+sudo pip install awscli
+aws configure #[my credentials are on ~/.aws/credentials] #You can leave the Default region name and Default output format the way they are.
+
+create table:
+ -notes;
+  - Partition key: userid
+  - Sort key: noteid
+  (on demand, defaults, create)
+
+create user pool: notes-user-pool
+ - review defaults
+ - select sign in with email, scoll down and create pool
+
+take note of:
+ -Pool Id and Pool ARN which will be required later. Also, note the region that your User Pool is created in – in our case it’s us-east-1.
+
+"
+Pool Id = us-east-1_GjVjzdgVg
+Pool ARN = arn:aws:cognito-idp:us-east-1:858944683965:userpool/us-east-1_GjVjzdgVg
+app client id = 604cr336delellirj7aj3m7nj (we got this at a later step then the pool ID and ARN)
+"
+
+still in the user pool:
+  - app clients  (left panel)
+    - add an app clients
+      - Name the app (notes-app)
+      - Generate client secret - REMOVE CHECK!
+      - Enable lambda trigger based custom authentication (ALLOW_CUSTOM_AUTH) - CHECK!!!!
+      - Create app - CLICK!
+      - (returns: name of the app, app client-id: 604cr336delellirj7aj3m7nj )
+      - take note of the app client id
+  - Domain name (left panel)
+    - prefix: should be similar to the naeme of the app (notes-app-mine)
+    - (at this step it is possible to add our own domain)
+    - save changes
+
+
+Set up user: In your terminal, run:
+YOUR_COGNITO_APP_CLIENT_ID = 6tqs8gl1mjr3pq9pcqhinmurkn
+$ aws cognito-idp sign-up \
+  --region us-east-1 \
+  --client-id YOUR_COGNITO_APP_CLIENT_ID \
+  --username joaoramos.dev@gmail.com \
+  --password J[...]@gestor
+
+YOUR_COGNITO_USER_POOL_ID = us-east-1_FcWWWHc9e
+Confirm user: In your terminal, run:
+$ aws cognito-idp admin-confirm-sign-up \
+  --region us-east-1 \
+  --user-pool-id YOUR_COGNITO_USER_POOL_ID \
+  --username joaoramos.dev@gmail.com
+Expect no response.
+
+Install npm globally if not installed:
+$ npm install serverless -g
+(for help in npm - https://docs.npmjs.com/downloading-and-installing-node-js-and-npm )
+
+
+On the root folder:
+serverless install --url https://github.com/AnomalyInnovations/serverless-nodejs-starter --name notes-app-api
+(installation will create the new notes-app-api folder)
+
+"cd" into the new directory:
+$ cd notes-app-api
+
+Install Node.js packages. At the root of the project, run:
+$ [sudo] npm install
+Especifically for our project backend:
+$ [sudo] npm install aws-sdk --save-dev
+$ [sudo] npm install uuid@3.4.0 --save
+(there will be some warnings, but ignore them.)
+
+Create a new file called create.js in our project root with the following.
+The AWS JS SDK assumes the region based on the current region of the Lambda function. So if your DynamoDB table is in a different region, make sure to set it by calling AWS.config.update({ region: "my-region" }); before initilizing the DynamoDB client.
+
+Now let’s define the API endpoint for our function:
+Open the serverless.yml file and replace it with the following.
+
+Create a "mocks" directory.
+$ mkdir mocks
+
+Create a mocks/create-event.json file and add the following:
+{
+  "body": "{\"content\":\"hello world\",\"attachment\":\"hello.jpg\"}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
+(cognitoIdentityId field is just a string we are going to use as our userId. We can use any string here; just make sure to use the same one when we test our other functions.)
+
+$ serverless invoke local --function create --path mocks/create-event.json
+OR multiple profiles (https://serverless-stack.com/chapters/configure-multiple-aws-profiles.html)
+$ AWS_PROFILE=myProfile
+$ serverless invoke local --function create --path mocks/create-event.json #(will assume)
+$serverless deploy --aws-profile newAccount
+
+
+NOTE: noteId: "7be29260-60fd-11ea-ac1e-eb32adba7bed"
+              "360f1d10-618b-11ea-beb0-7353d8062e62"
+
+https://serverless-stack.com/chapters/add-a-get-note-api.html
+$ serverless invoke local --function get --path mocks/get-event.json
+
+https://serverless-stack.com/chapters/add-a-list-all-the-notes-api.html
+$ serverless invoke local --function list --path mocks/list-event.json
+
+https://serverless-stack.com/chapters/add-an-update-note-api.html
+$ serverless invoke local --function update --path mocks/update-event.json
+
+https://serverless-stack.com/chapters/add-a-delete-note-api.html
+$ serverless invoke local --function delete --path mocks/delete-event.json
+
+
+STRIPE SETUP:
+-test API keys
+-Developers
+-API keys
+-Publishable key: pk_test_Ldg3HtZeqhVAnRZgOxe8MtKG00vX9dbVbL
+-STRIPE_SECRET_KEY=sk_test_qHoPOE85yC11NbaBmebfa7OP00rFVUhQCk
+-$ npm install --save stripe
+-ADD STRIPE CODE: https://serverless-stack.com/chapters/add-a-billing-api.html
+
+Add mocks/billing-event.json: https://serverless-stack.com/chapters/test-the-billing-api.html
+$ serverless invoke local --function billing --path mocks/billing-event.json
+
+SERVERLESS UNIT TESTS: 
+(https://serverless-stack.com/chapters/unit-tests-in-serverless.html)
+(at length: https://seed.run/blog/testing-your-serverless-app)
+$ npm install --save-dev serverless-bundle
+
+$ npm install --save-dev jest
+-x[NOT THAT] And update the scripts block in your package.json with the following:
+"scripts": {
+  "test": "jest"
+},
+This will allow you to run your tests using the command npm test.
+->[THIS] Alternatively, if you are using the serverless-bundle plugin to package your functions, it comes with a built-in script to transpile your code and run your tests. Add the following to your package.json instead.
+"scripts": {
+  "test": "serverless-bundle test"
+},
+
+add billing.test.js [+<--- test code]
+
+https://serverless-stack.com/chapters/handle-api-gateway-cors-errors.html
+
+deploy... [sls deploy or sls deploy -f functionName]
+
+https://serverless-stack.com/chapters/create-a-cognito-identity-pool.html
+User Pool ID: us-east-1_GjVjzdgVg
+App Client ID: 604cr336delellirj7aj3m7nj
+
+Google OAuth2:
+Client ID: 344363777455-c559nvqoov799370ddcjl8gmrod6e21e.apps.googleusercontent.com
+Client Secret: Q_GPtqJGYI5kGLjEk3sp2JTD
+clicked -> "create pool"
+
+hideDetails --> show
+IAM Role: Crete a new IAM Role [default]
+Role Name: Cognito_notesAuth_Role
+
+<paste what is in the current guide page: create-a-cognito-identity-pool.html>
+A quick note on the block that relates to the S3 Bucket. In the above policy we are granting our logged in users access to the path private/${cognito-identity.amazonaws.com:sub}/. Where cognito-identity.amazonaws.com:sub is the authenticated user’s federated identity ID (their user id). So a user has access to only their folder within the bucket. This is how we are securing the uploads for each user.
+
+Identity pool ID: us-east-1:3be71610-f8d3-4e16-9e7f-a2bbd1d22044
+(Identity Pool ARN: arn:aws:cognito-identity:us-east-1:858944683965:identitypool/us-east-1:3be71610-f8d3-4e16-9e7f-a2bbd1d22044)
+
+----------
+testing: (with AWS API Gateway Test CLI.)
+($ sudo npm install -g npx)
+($ sudo npm install -g aws-api-gateway-cli-test)
+$ npx aws-api-gateway-cli-test \
+--username='admin@example.com' \
+--password='Passw0rd!' \
+--user-pool-id='YOUR_COGNITO_USER_POOL_ID' \
+--app-client-id='YOUR_COGNITO_APP_CLIENT_ID' \
+--cognito-region='YOUR_COGNITO_REGION' \
+--identity-pool-id='YOUR_IDENTITY_POOL_ID' \
+--invoke-url='YOUR_API_GATEWAY_URL' \
+--api-gateway-region='YOUR_API_GATEWAY_REGION' \
+--path-template='/notes' \
+--method='POST' \
+--body='{"content":"hello world","attachment":"hello.jpg"}'
+
+($ npm install npx)
+$ npx aws-api-gateway-cli-test \
+--username='joaoramos.dev@gmail.com' \
+--password='J1o9a4o7@gestor' \
+--user-pool-id='us-east-1_GjVjzdgVg' \
+--app-client-id='604cr336delellirj7aj3m7nj' \
+--cognito-region='us-east-1' \
+--identity-pool-id='us-east-1:3be71610-f8d3-4e16-9e7f-a2bbd1d22044' \
+--invoke-url='https://eg9365t9o6.execute-api.us-east-1.amazonaws.com/prod' \
+--api-gateway-region='us-east-1' \
+--path-template='/notes' \
+--method='POST' \
+--body='{"content":"hello world","attachment":"hello.jpg"}'
+
+-----------------------------------------
+
+#NEXT UP:
+https://serverless-stack.com/chapters/create-a-new-reactjs-app.html
+
+
+--------------------------------
+
+
+eg9365t9o6

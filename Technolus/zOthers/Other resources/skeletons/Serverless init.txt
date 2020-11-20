@@ -1,0 +1,51 @@
+
+#add to venv/bin/activate
+export AWS_PROFILE=serverless-gestor
+export AWS_REGION=us-east-1
+export TEST_DOMAIN=virtualtoolsdev.com
+
+
+cd GIT
+
+-----------------------------
+
+mkdir serverless-gestor
+cd serverless-gestor
+
+mkdir backend
+cd backend
+
+virtualenv venv --python=python3
+source venv/bin/activate
+
+----------------------------
+
+git init
+git add .
+git commit
+#enter a commit message - for instance on the first line
+
+----------------------------
+
+----------------------------
+serverless invoke local --function html
+serverless logs -f hello
+----------------------------
+
+-------------------------------------------------
+--- custom domain: ------------------------------
+npm install serverless-domain-manager --save-dev
+sls create_domain
+--------------------------------------------------
+--------------------------------------------------
+
+--------------------------------------------------
+export TEST_DOMAIN=example.com
+npm run integration-test
+--------------------------------------------------
+
+
+example: https://github.com/Vadorequest/serverless-with-next5-boilerplate/blob/master/serverless.yml
+
+
+

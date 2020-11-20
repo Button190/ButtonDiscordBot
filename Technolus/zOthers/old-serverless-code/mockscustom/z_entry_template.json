@@ -1,0 +1,15 @@
+{
+  "superTag":"purchases",
+  "tag":"supermarket",
+  "subTags":"fruits",
+  "shortTag":"supermarket",
+  "externalRef":"96262",
+  "externalPage":"96262",
+  "quantity":1,
+  "priceUnit":1,
+  "priceTotal":1,
+  "tax": 0.06,
+  "commissions": 0,
+  "earnings": -1
+}
+

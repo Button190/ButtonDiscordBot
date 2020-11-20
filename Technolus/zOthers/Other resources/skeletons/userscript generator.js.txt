@@ -1,0 +1,43 @@
+
+//open an image if none is open
+if (!document.querySelector(".OUZ5W")) {
+    $(".rg_i").click();
+    
+}
+
+//Redimention
+var property='class';
+var value='n3VNCb';
+var pairPropertyValue = '';
+var selector = '';
+
+var selector;
+if(selector){
+    //selector = selector;   
+}else if(pairPropertyValue){
+    selector = '['+PropertyValue+']';   
+}else {
+    selector = '['+property+'="'+value+'"]';  
+}
+
+setInterval(function(){
+    document.querySelectorAll(selector).forEach(function(entry) {
+        entry.style.height = 'auto';
+        entry.style.width = 'auto';
+    });
+    document.querySelector(".OUZ5W").style.width =  window.innerWidth;
+    document.querySelector(".WaWKOe").style.width = window.innerWidth;
+    document.querySelector(".l39u4d").style.width = window.innerWidth;
+    
+    document.querySelector("#islsp").style.width = '';
+
+    document.querySelector('#islmp').style.width ='0px';
+    document.querySelector('#islmp').style.padding ='0px';
+},1000);
+
+/*
+ //change active image with underlying image if image is small:
+if (!document.querySelector(".OUZ5W")) {
+    $(".rg_i").click();
+}
+*/

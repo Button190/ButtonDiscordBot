@@ -1,0 +1,24 @@
+{
+  "pathParameters": {
+
+    "id": "578eb840-f70f-11e6-9d1a-1359b3b22944",
+
+    "url": "http://dummy.restapiexample.com/api/v1/employees",
+    "search": "",
+    "include": "",
+    "exclude": "",
+    "elements": "",
+    "regex": "",
+    "subRegex": "",
+    "eval": "",
+    "jsons": ["data.0.employee_name"]
+
+
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
+

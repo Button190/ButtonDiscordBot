@@ -1,0 +1,20 @@
+{
+  "pathParameters": {
+
+    "id": "578eb840-f70f-11e6-9d1a-1359b3b22944",
+
+    "url": "https://1337x.to/sort-search/%s/seeders/desc/1/",
+    "search": "last week tonight with john oliver s04e02",
+    "include": "last week tonight with john oliver s04e02",
+    "exclude": "",
+    "elements": "a"
+
+
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
+

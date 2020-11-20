@@ -1,0 +1,42 @@
+Resources:
+MAIN: https://serverless-stack.com/ (https://serverless-stack.com/chapters/create-a-new-reactjs-app.html)
+Chat room with Node.js and Socket.io: https://grimedump.wordpress.com/2018/03/05/a-simple-chat-room-with-node-js-and-socket-io/
+See also: https://expressjs.com/
+DB Best practices: https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/bp-sort-keys.html#bp-sort-keys-version-control
+
+-----------------------------------------
+REACT FRONT END MADE FOR SERVERLESS BACKEND:
+https://serverless-stack.com/chapters/create-a-new-reactjs-app.html
+-----------------------------------------
+
+Got to main project folder:
+($ cd notes-app-api)
+($ cd ..)
+($pwd #/mnt/c/GIT/gestor)
+
+$ npx create-react-app notes-app-client --use-npm
+$ cd notes-app-client
+$ npm start
+
+
+---------------------------------
+https://serverless-stack.com/chapters/add-app-favicons.html
+add favicon with favicon generator website.
+---------------------------------
+
+---------------------------------
+https://serverless-stack.com/chapters/setup-custom-fonts.html
+---------------------------------
+---------------------------------
+https://serverless-stack.com/chapters/setup-bootstrap.html
+$npm install react-bootstrap@0.33.0 --save
+... add styles, and css
+---------------------------------
+https://serverless-stack.com/chapters/handle-routes-with-react-router.html
+$npm install react-router-dom@5.0.1 --save
+add some import statement and add router to ReactDOM.render().
+---------------------------------
+#NEXT UP:
+https://serverless-stack.com/chapters/create-containers.html
+
+--------------------------------

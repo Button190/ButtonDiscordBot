@@ -1,0 +1,9 @@
+{
+  "body": "{\"supertag\":\"purchases\",\"tag\":\"supermarket\",\"subtags\":\"fruits\",\"shorttag\":\"supermarket\",\"external_ref\":\"96262\",\"external_page\":\"96262\",\"quantity\":1,\"price_unit\":1,\"price_total\":1,\"quantity\":1,\"tax\":0.06,\"commissions\":0,\"earnings\":-1}",
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
+

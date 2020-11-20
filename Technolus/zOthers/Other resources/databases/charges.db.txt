@@ -1,0 +1,74 @@
+Looking to hire developers to create a wordpress website to support my business. (See attached wordpress and google sheets wireframes.)
+
+
+
+In sum, I'll need a wordpress website that will retrieve data from a google spreadsheet to dynamically generate the custom client pages in the style shown on the wireframe:
+- a page with the videos in my client's collection, with a mobile version/mobile responsive
+- option to filter by category on click on a category name or on a dropdown
+
+- fallback page displaying a message essentially saying: "ops, if you're having trouble contact us at ..." (this fallback page needs to be mobile responsive, but it is not as much of a concern as the video pages).
+- the video pages address should look something like this: "subdomain.mywebsite.com/?user=My%20Client&code=ABC123" (the key will come from a second page)
+
+- I will also ask for slight adjustments to some of the of the elements in all pages so that the layout looks nice and as close as possible to how I envision it.
+- I'll also provide all images/icons, in whatever format you prefer.
+
+Since all of this is dependent on the google sheet I'd rather have the same developer working on both sides. The google sheet should:
+- automatically retrieve any new videos from a vimeo folder and display them each on a new row with details such as video title, vimeo video ID, and vimeo thumbnail ID.
+- it will also need some data validations to make sure that there aren't typos on the client's name.
+- will need to allow for the generation of a key so that each client only has access to his own videos.
+
+Thank you for reading my job post, let me know if you have any questions, and most of all let me know your terms (price and how long you estimate this to take until completion). More work will follow upon a successful initial delivery.
+
+NOTE: I'll be available throughout the project to answer any questions about any details and to provide any guidance that may be needed.
+
+
+
+
+
+
+
+
+
+----------------------------------------
+
+
+
+
+In sum, I'll need a wordpress website that will retrieve data from a google spreadsheet to dynamically generate the custom client pages in the style shown on the wireframe:
+- a page with the videos in my client's collection, with a mobile version/mobile responsive
+- option to filter by category on click on a category name or on a dropdown
+
+- fallback page displaying a message essentially saying: "ops, if you're having trouble contact us at ..." (this fallback page needs to be mobile responsive, but it is not as much of a concern as the video pages).
+- the video pages address should look something like this: "subdomain.mywebsite.com/?user=My%20Client&code=ABC123" (the key will come from a second page)
+
+- I will also ask for slight adjustments to some of the of the elements in all pages so that the layout looks nice and as close as possible to how I envision it.
+- I'll also provide all images/icons, in whatever format you prefer.
+
+Since all of this is dependent on the google sheet I'd rather have the same developer working on both sides. The google sheet should:
+- automatically retrieve any new videos from a vimeo folder and display them each on a new row with details such as video title, vimeo video ID, and vimeo thumbnail ID.
+- it will also need some data validations to make sure that there aren't typos on the client's name.
+- will need to allow for the generation of a key so that each client only has access to his own videos.
+
+Thank you for reading my job post, let me know if you have any questions, and most of all let me know your terms (price and how long you estimate this to take until completion). More work will follow upon a successful initial delivery.
+
+NOTE: I'll be available throughout the project to answer any questions about any details and to provide any guidance that may be needed.
+
+---------------------------------------
+
+
+- a page with the videos in my client's collection, with a mobile version/mobile responsive
+- option to filter by category on click on a category name or on a dropdown
+
+- fallback page displaying a message essentially saying: "ops, if you're having trouble contact us at ..." (this fallback page needs to be mobile responsive, but it is not as much of a concern as the video pages).
+- the video pages address should look something like this: "subdomain.mywebsite.com/?user=My%20Client&code=ABC123" (the key will come from a second page)
+
+- I will also ask for slight adjustments to some of the of the elements in all pages so that the layout looks nice and as close as possible to how I envision it.
+- I'll also provide all images/icons, in whatever format you prefer.
+
+- automatically retrieve any new videos from a vimeo folder and display them each on a new row with details such as video title, vimeo video ID, and vimeo thumbnail ID.
+- it will also need some data validations to make sure that there aren't typos on the client's name.
+- will need to allow for the generation of a key so that each client only has access to his own videos.
+
+
+
+

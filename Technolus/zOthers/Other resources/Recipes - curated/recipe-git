@@ -1,0 +1,20 @@
+Perfect tutorial: (transcribed bellow)
+https://serverless-stack.com/chapters/initialize-the-frontend-repo.html
+
+
+Add the existing files.
+$ git init
+
+Create your first commit.
+$ git add .
+
+Link it to the repo you created on GitHub.
+$ git commit -m "First commit"
+
+Here REPO_URL is the URL we copied from GitHub in the steps above. You can verify that it has been set correctly by doing the following.
+$ git remote add origin REPO_URL
+
+Finally, let’s push our first commit to GitHub using:
+$ git remote -v
+
+$ git push -u origin master

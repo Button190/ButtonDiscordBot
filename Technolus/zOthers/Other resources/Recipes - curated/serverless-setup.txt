@@ -1,0 +1,93 @@
+frequent:
+sls invoke  local -f main
+sls deploy function -f main
+
+
+#https://stackoverflow.com/questions/39774436/how-to-import-python-dependencies-in-serverless-v1-0/39791686#39791686
+#https://serverless.com/blog/flask-python-rest-api-serverless-lambda-dynamodb/#using-the-quick-start-template
+pip freeze > requirements.txt
+cat requirements.txt
+#create a folder with all the dependencies:
+pip install -t vendored -r requirements.txt
+-----------------------
+
+
+
+
+
+
+
+#~/.aws/credentials
+#[serverless-gestor]
+#aws_access_key_id = <ACCESS_KEY>
+#aws_secret_access_key = <SECRET_KEY>
+
+--------------------------------
+mkdir serverless-gestor
+cd serverless-gestor
+
+virtualenv -p python3 venv
+. venv/bin/activate
+
+mkdir backend
+cd backend
+
+sudo npm install -g serverless
+
+export AWS_PROFILE=serverless-gestor
+export AWS_REGION=eu-west-2
+
+
+--------------------------------
+
+serverless create --template aws-python3 --name serverless-gestor
+$ npm install serverless-domain-manager --save-dev
+$ npm install --save serverless-python-requirements
+serverless plugin install -n serverless-python-requirements
+--------------------------------
+serverless deploy
+sls deploy function -u -f main 
+serverless invoke -f functionName
+serverless invoke local -f functionName
+
+https://serverless.com/framework/docs/providers/aws/cli-reference/invoke-local/
+serverless invoke local -f functionName -e VAR1=value1 -e VAR2=value2
+serverless invoke local --function functionName --data "hello world"
+serverless invoke local --function functionName --path lib/data.json
+serverless invoke local --function functionName --context "hello world"
+serverless invoke local --function functionName --contextPath lib/context.json
+data.json{
+  "resource": "/",
+  "path": "/",
+  "httpMethod": "GET"
+  //  etc. //
+}
+
+https://gist.github.com/lgoodridge/1723d08eb5b47f98ec2491daa168544f/raw/0bf6c7a583c89ece6d3c87de9d8f854c84a780f9/serverless-4.yml
+pip install boto3 botocore
+
+serverless plugin install -n serverless-python-requirements
+pip freeze > requirements.txt
+--------------------------------
+//////////////////// DEPLOY TEST FUNCTION ///////////////////
+--------------------------------
+
+--------------------------------
+
+--------------------------------
+
+//////////////////// CREATE ACTUAL FUNCTION ///////////////////
+
+--------------------------------
+update handler (with function) and yml (with the events to respond to)
+handler should return either:
+ response = {"statusCode": 200,"body": json.dumps(body)} # API
+ OR:
+ response = {"statusCode": 200,"body": "<html></html>"} # HTML
+ OR:
+ response = {"statusCode": 200,"body": "some raw text"} # RAW
+--------------------------------
+
+# There is a warning about cfnRole. More info here: https://stackoverflow.com/questions/58760837/warned-no-cfnrole-set-and-unnecessary-files-was-created-after-deploy
+--------------------------------
+

@@ -1,0 +1,22 @@
+{
+  "pathParameters": {
+
+    "url": "https://www.youtube.com/watch?v=4m7msadL5iA&t=446s",
+
+    "search": "",
+    
+    "elements": "",
+    "include": "",
+    "exclude": "",
+    
+    "regex": "...\\\"title\\\":\\\"(.*?)\\\"...",
+    "regexMatches": [0,1,2]
+
+  },
+  "requestContext": {
+    "identity": {
+      "cognitoIdentityId": "USER-SUB-1234"
+    }
+  }
+}
+

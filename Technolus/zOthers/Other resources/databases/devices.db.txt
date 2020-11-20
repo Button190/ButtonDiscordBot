@@ -1,0 +1,6 @@
+prefered format:
+id,concept-name,concept-related,,,,
+
+use this related concepts column to: make lists of related concepts in chain so that if a match is not found at a certain level, we can go deeper in the chain and find a match in more looselly related concepts]
+
+OSI Model

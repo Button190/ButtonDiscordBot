@@ -1,0 +1,20 @@
+curl -X POST --header "Authorization: Bearer 88IETyMcnAAAAAAAAAAUYDD46FHuM12UP3sdjqnf96i4qXhEBPc7GIb7w2igLOqc" \
+             --header "Content-Type: application/json" \
+             --data "{\"query\": \"David Sitt - February 12 2020.mp4\",\"include_highlights\": false}" \
+             https://api.dropboxapi.com/2/files/search_v2 \
+    | json_pp
+
+
+curl -X GET --header "Authorization: Bearer 45813f2b6b2b9bb65c7d5106d0899be2" \
+             --header "Accept: application/vnd.vimeo.*+json;version=3.4 " \
+             --header "Content-Type: text/json" \
+             https://api.vimeo.com/videos/357122789:4c539daeb6/pictures/810391368 \
+    | json_pp
+
+
+
+curl -X GET --header "Content-Type: text/json"  \
+             https://vimeo.com/api/oembed.json?url=https%3A//vimeo.com/358859068/0c43d7b744 
+    | json_pp
+        
+curl -s --data-binary '{"jsonrpc":"2.0","id":"1","method":"Player.Open","params":{"item":{"file":"plugin://plugin.video.youtube/?action=play_video&videoid=xxxxxxxxxx"}}}' -H 'content-type: application/json;' http://192.168.2.11:8080/jsonrpc | json_pp

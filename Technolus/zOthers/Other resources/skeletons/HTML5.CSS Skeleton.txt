@@ -1,0 +1,16 @@
+body{
+    font-size: 14px;
+    line-height: normal;
+    font-family: "Helvetica Neue", Roboto, Arial, sans-serif;
+    color: #444444;
+    background-color: white;
+}
+h1{
+    color: #73757d;
+}
+.spacer{
+    height: 1em; 
+}
+.json{
+    color: blue;
+}

@@ -1,0 +1,49 @@
+prefered format:
+id,concept-name,concept-related,,,,
+use this related concepts column to: make lists of related concepts in chain so that if a match is not found at a certain level, we can go deeper in the chain and find a match in more looselly related concepts]
+
+'
+*
+!.gitignore
+'
+-----
+wikileaks
+----
+dojo toolkit
+
+OSI Model
+DialogFlow - google assitant
+
+Data-Structures
+complexity analysis (big-O notation)
+program architecture (like mvc: model-view-controller)
+classic algorithms (like Binary Search, Dijkstras and A* search algorithms, sorting algorithms, ...), concurrency
+parts of the standard library like
+collections
+multiprocessing
+json
+databases (namely SQL such as sqlite)
+Recursion
+Testing
+Unit Testing
+Integration Testing
+Functional Testing
+Niche tools like
+Property-based testing
+Fuzzing
+Mutation Testing
+(https://www.reddit.com/r/learnpython/comments/ezhrnl/i_keep_failing_coding_interviews_best_way_to/fgnq9aa/)
+UNIX
+POSIX
+
+unit-testing 
+testing
+Spotinst Ocean
+
+
+
+MIT Open Courseware:
+6.0001 Introduction to Computer Science and Programming in Python - An introduction course that might help you catch some holes in your fundamentals. Maybe nobody has introduced you to Immutable types and here you will encounter that (in lecture 5)
+6.005 Software Construction - How to write code that works for big projects, not just short hacky scripts that barely work and are hard to change without adding bugs. (No video lectures, online textbook, code in Java)
+6.006 Introduction to Algorithms - A course to introduce you to algorithms including popular ones like breadth-first search and how to think with algorithms.
+6.046J Design and Analysis of Algorithms - More algorithms for you to study if 6.006 wasn't enough.
