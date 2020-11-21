@@ -1,5 +1,6 @@
 require('dotenv').config();
 
+
 //ping heroku to keep awake
 const request = require('request');
 const ping = () => request( process.env.URL , (error, response, body) => {
@@ -9,4 +10,5 @@ const ping = () => request( process.env.URL , (error, response, body) => {
 });
 setInterval(ping, 20*60*1000); // I have set to 20 mins interval
 setTimeout(ping, 2*1000); // ping it after a couple seconds to avoid a trip to the browser.
+
 
