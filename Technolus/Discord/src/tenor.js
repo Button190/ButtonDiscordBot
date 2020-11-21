@@ -32,7 +32,7 @@ module.exports = {
         }
 
         //cut array in half
-        let halfOfAllImages = arrayName.splice(0,Math.ceil(images.length / 2));
+        let halfOfAllImages = images.splice(0,Math.ceil(images.length / 2));
 
         //return images;
         return halfOfAllImages;
