@@ -31,11 +31,14 @@ module.exports = {
             images.push(s);
         }
 
-        //cut array in half
-        let halfOfAllImages = images.splice(0,Math.ceil(images.length / 2));
-
-        //return images;
-        return halfOfAllImages;
+        if (images.length>3){
+            //cut array in half
+            let halfOfAllImages = images.splice(0,Math.ceil(images.length / 3));
+            return halfOfAllImages;
+        }else{
+            return images;
+        }
+        
     }
 }
 
