@@ -10,6 +10,7 @@ const path = require('path');
 
 var botInitialized;
 
+
 const token = process.env.TOKEN
 
 module.exports = { 
@@ -24,37 +25,23 @@ module.exports = {
 
             client.on('ready', () => {
                 console.log('This bot is online!');
+                
+                setInterval(() => {
+                    
+                    client.user.setPresence({
+                        status: 'online',
+                        activity: {
+                            name: Phrases.getRandomPhrase(path.join(__dirname, '..' , './settings/status')) + " [;help]",
+                            type: 'WATCHING',
+                            //type: 'STREAMING',
+                            //url: 'https://www.youtube.com/watch?v=5yx6BWlEVcY'
+                        }
+                    })
 
+                }, 30*1000); // Runs this every minute*seconds*miliseconds.
 
-                client.user.setPresence({
-                    status: 'online',
-                    activity: {
-                        name: "0's & 1's | ;help",
-                        type: 'WATCHING',
-                        //type: 'STREAMING',
-                        //url: 'https://www.youtube.com/watch?v=5yx6BWlEVcY'
-                    }
-                })
-
-                // client.user.setPresence({
-                //     status: 'online',
-                //     activity: {
-                //     }
-                // })
 
             })
-
-            // const activities_list = [ 
-            //     "Playing", 
-            //     "Watching"
-            //     ]; // creates an arraylist containing phrases you want your bot to switch through.
-            
-            // client.on('ready', () => {
-            //     setInterval(() => {
-            //         const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
-            //         client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
-            //     }, 10000); // Runs this every 10 seconds.
-            // });
 
 
 
