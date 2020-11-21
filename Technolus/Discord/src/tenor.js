@@ -31,13 +31,17 @@ module.exports = {
             images.push(s);
         }
 
-        if (images.length>3){
-            //cut array in half
-            let halfOfAllImages = images.splice(0,Math.ceil(images.length / 3));
-            return halfOfAllImages;
-        }else{
-            return images;
-        }
+        let topImages = images.splice(0,50);
+        //let topImages = images.splice(0,Math.ceil(images.length / 3));
+        return topImages;
+
+        // if (images.length>3){
+        //     //cut array in half
+        //     let halfOfAllImages = images.splice(0,Math.ceil(images.length / 3));
+        //     return halfOfAllImages;
+        // }else{
+        //     return images;
+        // }
         
     }
 }
