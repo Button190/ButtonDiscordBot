@@ -1,5 +1,8 @@
 /*
+Official documentation:
+https://discord.js.org/#/docs/main/stable/
 
+Create bot:
 https://discord.com/developers/
 https://discordapi.com/permissions.html#281600
 

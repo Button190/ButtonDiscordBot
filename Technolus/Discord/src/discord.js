@@ -1,4 +1,3 @@
-// https://www.youtube.com/watch?v=OQsUnFDT7iE
 const {Client} = require('discord.js');
 const Tenor = require('./tenor.js');
 const Phrases = require('./phrases.js');
@@ -24,9 +23,40 @@ module.exports = {
             const client = new Client();
 
             client.on('ready', () => {
-                
                 console.log('This bot is online!');
+
+
+                client.user.setPresence({
+                    status: 'online',
+                    activity: {
+                        name: "0's & 1's | ;help",
+                        type: 'WATCHING',
+                        //type: 'STREAMING',
+                        //url: 'https://www.youtube.com/watch?v=5yx6BWlEVcY'
+                    }
+                })
+
+                // client.user.setPresence({
+                //     status: 'online',
+                //     activity: {
+                //     }
+                // })
+
             })
+
+            // const activities_list = [ 
+            //     "Playing", 
+            //     "Watching"
+            //     ]; // creates an arraylist containing phrases you want your bot to switch through.
+            
+            // client.on('ready', () => {
+            //     setInterval(() => {
+            //         const index = Math.floor(Math.random() * (activities_list.length - 1) + 1); // generates a random number between 1 and the length of the activities array list (in this case 5).
+            //         client.user.setActivity(activities_list[index]); // sets bot's activities to one of the phrases in the arraylist.
+            //     }, 10000); // Runs this every 10 seconds.
+            // });
+
+
 
             client.on('message', async msg => {
 
