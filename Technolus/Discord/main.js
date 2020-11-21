@@ -32,7 +32,7 @@ app.get('/', function(req, res) {
         res.statusCode = 200
         res.json({
             status: '200',
-            message: 'Bot is online!',
+            message: 'Discord bot is online!',
             host: process.env.URL,
             local: process.env.LOCAL
         })
