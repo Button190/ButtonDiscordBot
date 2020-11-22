@@ -6,7 +6,7 @@ module.exports = {
         let url = `https://api.wolframalpha.com/v1/result?i=${encodeURIComponent(query)}&appid=${process.env.WOLFRAM_APPID}`;
         const response = await fetch(url);
         const data = await response.text();
-        return data.replace("Wolfram|Alpha ","Technolus' AI ");
+        return data.replace("Wolfram|Alpha did not understand your input","hmm, maybe you could rephrase that?");
     }
 }
 
