@@ -11,6 +11,7 @@ module.exports = {
             "hmm, maybe you could rephrase that?",
             "hmm, ok. but not really. what do you mean exactly?",
             "hmm, can you explain that as if I'm a bot?",
+            "hmm, sorry I didn't understand.",
         ];
         return data.replace("Wolfram|Alpha did not understand your input", quirkyResponses[Math.floor(Math.random()*quirkyResponses.length)]);
     }
