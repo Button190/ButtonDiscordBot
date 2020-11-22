@@ -9,8 +9,7 @@ const path = require('path');
 
 const {evaluate} = require('mathjs');
 
-const WolframAlphaAPI = require('wolfram-alpha-api');
-const waApi = WolframAlphaAPI(process.env.WOLFRAM_APPID);
+const WolframAlphaAPI = require('../../WolframAlphaAPI/main.js');
 
 
 var botInitialized;
@@ -79,7 +78,7 @@ module.exports = {
                 
                 } else if (/^;[\;\=]/.test(msg.content)) { // anything else preceeded by a semicolon and an equal sign
                     msg.channel.send(
-                        await waApi.getShort(
+                        await WolframAlphaAPI.getShort(
                             msg.content.substring(2)
                         )
                     )

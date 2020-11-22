@@ -17,7 +17,6 @@
     "node-fetch": "^2.6.1",
     "request": "^2.88.2",
     "socket.io": "^3.0.3",
-    "ws": "^7.4.0",
-    "wolfram-alpha-api": "^1.0.0"
+    "ws": "^7.4.0"
   }
 }

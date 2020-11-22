@@ -1,0 +1,30 @@
+{
+  "author": "Eirik Albrigtsen <sszynrae@gmail.com>",
+  "name": "wolfram-alpha",
+  "description": "Wolfram Alpha API",
+  "keywords": [
+    "wolfram",
+    "alpha",
+    "api",
+    "wolframalpha"
+  ],
+  "version": "0.6.0",
+  "repository": {
+    "type": "git",
+    "url": "clux/wolfram-alpha"
+  },
+  "scripts": {
+    "test": "bndg test/*.test.js",
+    "precoverage": "istanbul cover bndg test/*.test.js",
+    "coverage": "cat coverage/lcov.info && rm -rf coverage"
+  },
+  "main": "wolfram.js",
+  "dependencies": {
+    "libxmljs": "^0.18.4",
+    "request": "^2.81.0"
+  },
+  "devDependencies": {
+    "bandage": "^0.5.0",
+    "istanbul": "^0.4.5"
+  }
+}
