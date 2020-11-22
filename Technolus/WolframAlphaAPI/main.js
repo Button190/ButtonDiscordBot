@@ -6,7 +6,13 @@ module.exports = {
         let url = `https://api.wolframalpha.com/v1/result?i=${encodeURIComponent(query)}&appid=${process.env.WOLFRAM_APPID}`;
         const response = await fetch(url);
         const data = await response.text();
-        return data.replace("Wolfram|Alpha did not understand your input","hmm, maybe you could rephrase that?");
+
+        const quirkyResponses = [
+            "hmm, maybe you could rephrase that?",
+            "hmm, ok. but not really. what do you mean exactly?",
+            "hmm, can you explain that as if I'm a bot?",
+        ];
+        return data.replace("Wolfram|Alpha did not understand your input", quirkyResponses[Math.floor(Math.random()*quirkyResponses.length)]);
     }
 }
 
