@@ -31,21 +31,17 @@ module.exports = {
                 setInterval(() => {
 
                     let myPhrase = Phrases.getRandomPhrase(path.join(__dirname, '..' , './settings/status')) + " [;help]";
-                    let myStatus = /(.*?):(.*)/.exec(myPhrase)[1];
-                    let myType = /(.*?):(.*)/.exec(myPhrase)[2];
+                    let myType = /(.*?):\s*(.*)/.exec(myPhrase)[1];
+                    let myStatus = /(.*?):\s*(.*)/.exec(myPhrase)[2];
 
-                    if (Math.floor(Math.random())){
-
-                        client.user.setPresence({
-                            status: 'online',
-                            activity: {
-                                name: myStatus,
-                                type: myPhrase,
-                                //url: 'https://www.youtube.com/watch?v=5yx6BWlEVcY'
-                            }
-                        })
-
-                    }
+                    client.user.setPresence({
+                        status: 'online',
+                        activity: {
+                            name: myStatus,//myStatus,
+                            type: myType, //myType,
+                            //url: 'https://www.youtube.com/watch?v=5yx6BWlEVcY'
+                        }
+                    })
 
                 }, 30*1000); // Runs this every minute*seconds*miliseconds.
 
@@ -88,8 +84,8 @@ module.exports = {
                     let timeoutSeconds = 0;
                     let invalid = false;
 
-                    console.log(number);
-                    console.log(multiplier);
+                    //console.log(number);
+                    //console.log(multiplier);
 
                     switch (multiplier.toLowerCase().trim()) {
                         case "seconds":
