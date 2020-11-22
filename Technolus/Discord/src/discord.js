@@ -77,7 +77,7 @@ module.exports = {
                 //     let result = evaluate(msg.content.substring(2)); 
                 //     msg.channel.send(result);
                 
-                } else if (/^;[;=]/.test(msg.content)) { // anything else preceeded by a semicolon and an equal sign
+                } else if (/^;[\;\=]/.test(msg.content)) { // anything else preceeded by a semicolon and an equal sign
                     msg.channel.send(
                         await waApi.getShort(
                             msg.content.substring(2)
