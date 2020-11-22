@@ -78,9 +78,10 @@ module.exports = {
                     let result = evaluate(msg.content.substring(2)); 
                     msg.channel.send(result);
 
-                } else if (/^;rem\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
+                } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
                     //;rem [number] [years/months/days/hours/minutes/seconds])
-                    const parts = /^;rem\s*(\d+)\s*(\S+)/.exec(msg.content);
+                    let msgContent = "" ;
+                    const parts = /^;.+\s*(\d+)\s*(\S+)/.exec(msg.content);
                     const number = parts[1]; //[number]
                     const multiplier = parts[2]; //[years/months/days/hours/minutes/seconds]
                     
@@ -137,7 +138,8 @@ module.exports = {
                       if (invalid){
                         msg.reply(`Can't remember that. Try ;rem 5 seconds or ;rem 5s`)
                       }else{
-                        console.log(timeoutSeconds*1000);
+                        //msg.reply(`Ok, I'll remember that. Unless I forget.`)
+                        //console.log(timeoutSeconds*1000);
                         setTimeout( function () {
                                 msg.reply(`Reminder [${msg.content}]:\n${msg.url}`);
                             }, timeoutSeconds*1000 );
