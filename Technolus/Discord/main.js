@@ -11,7 +11,7 @@ https://discord.com/oauth2/authorize?client_id=778437294058111016&scope=bot&perm
 
 */
 
-//require('dotenv').config();
+require('dotenv').config();
 const Settings = require('./src/fetchSettings.js');
 const Bot = require('./src/discord.js');
 

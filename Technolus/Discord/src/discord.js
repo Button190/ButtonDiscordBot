@@ -9,6 +9,9 @@ const path = require('path');
 
 const {evaluate} = require('mathjs');
 
+const WolframAlphaAPI = require('wolfram-alpha-api');
+const waApi = WolframAlphaAPI(process.env.WOLFRAM_APPID);
+
 
 var botInitialized;
 
@@ -70,9 +73,16 @@ module.exports = {
                     //console.log(randomImage);
                     msg.channel.send(randomImage);
 
-                } else if (/^;=/.test(msg.content)) { // anything else preceeded by a semicolon and an equal sign
-                    let result = evaluate(msg.content.substring(2)); 
-                    msg.channel.send(result);
+                // } else if (/^;=/.test(msg.content)) { // anything else preceeded by a semicolon and an equal sign
+                //     let result = evaluate(msg.content.substring(2)); 
+                //     msg.channel.send(result);
+                
+                } else if (/^;[;=]/.test(msg.content)) { // anything else preceeded by a semicolon and an equal sign
+                    msg.channel.send(
+                        await waApi.getShort(
+                            msg.content.substring(2)
+                        )
+                    )
 
                 } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
                     //;rem [number] [years/months/days/hours/minutes/seconds])
@@ -132,7 +142,7 @@ module.exports = {
                       }
 
                       if (invalid){
-                        msg.reply(`Can't remember that. Try ;rem 5 seconds or ;rem 5s`)
+                        msg.reply(`Can't remember that. Try ;remind me 5 minutes or ;remind 5m or even ;rem5m`)
                       }else{
                         //msg.reply(`Ok, I'll remember that. Unless I forget.`)
                         //console.log(timeoutSeconds*1000);
