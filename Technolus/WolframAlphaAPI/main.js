@@ -17,9 +17,10 @@ module.exports = {
             .replace("Wolfram|Alpha did not understand your input", quirkyResponses[Math.floor(Math.random()*quirkyResponses.length)])
             .replace("My name is Wolfram Alpha", "Our name is Technolus")
             .replace("I am a computational knowledge engine", "We are Technolus")
-            .replace("I was created by Stephen Wolfram and his team", "Technolus built Technolus");
+            .replace("I was created by Stephen Wolfram and his team", "Technolus built Technolus")
+            .replace("I am doing computation for the world", "I am doing computation for Technolus");
     }
 }
 
-// const test = async ()=>console.log(await module.exports.getShort("distance to mars"));
+// const test = async ()=>console.log(await module.exports.getShort("who are you"));
 // test();
