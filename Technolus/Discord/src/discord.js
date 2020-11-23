@@ -57,6 +57,9 @@ module.exports = {
                 
                 //blacklist bot servers
                 if (/pokémeow/.test(msg.channel.name)) { return; }
+                
+                //let channelId = `${msg.guild.id}/${message.channel.id}`;
+                //if (channelId = "726654221163954226/726654221163954229")) { return; }
 
                 const channel = client.channels.cache.find(channel => channel.name === msg.channel.name);
 
