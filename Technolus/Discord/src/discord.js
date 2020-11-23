@@ -154,11 +154,12 @@ module.exports = {
                 //} else if (/^;pin[0-9]*$/.test(msg.content)) { // anything else preceeded by a semicolon and pin
                 //    TODO: save a messages link to the database and retrieve it later
                 //    (what if more than one pin???)
-                } else if (/^;vrc\s*.*$/.test(msg.content)) { // anything else preceeded by a semicolon and pin
+
+                // } else if (/^;vrc\s*.*$/.test(msg.content)) { // anything else preceeded by a semicolon and pin
                     
-                    const VRChatUserData =  await VRChat.getUser(msg.content.replace(/^;vrc\s*/,''));
-                    const strVRChatUserData=JSON.stringify(VRChatUserData,null,2);
-                    msg.channel.send(strVRChatUserData.replace(/^{/,"").replace(/}$/,""));
+                //     const VRChatUserData =  await VRChat.getUser(msg.content.replace(/^;vrc\s*/,''));
+                //     const strVRChatUserData=JSON.stringify(VRChatUserData,null,2);
+                //     msg.channel.send(strVRChatUserData.replace(/^{/,"").replace(/}$/,""));
 
                 } else if (/^;/.test(msg.content)) { // anything else preceeded by a semicolon
                     
