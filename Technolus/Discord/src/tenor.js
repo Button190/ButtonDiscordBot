@@ -4,7 +4,7 @@ module.exports = {
     getTenorImages: async (search) => {
 
         // clean up search term
-        search = search.replace(/\s/g, "-"); // dashed instead of spaces
+        search = search.replace(/\s/g, "-").replace(/'/g, "%27"); // dashed instead of spaces
         search = encodeURIComponent(search); // handle spacial chars
 
         //console.log('https://tenor.com/search/' + search + '-gifs');
@@ -26,10 +26,13 @@ module.exports = {
         for (var s of matches) {
             // so bad, yet so good. use regular expression to extract links within the anchor tags
             // and transform relative link into full address
-            //s = "https://tenor.com/view/"+s.match(/<a activeClassName="current" href="\/view\/(.*?)">/)[1];
+            
             s = "https://tenor.com/view/"+s.match(/<a (|activeClassName="current" )href="\/view\/(.*?)"/)[2];
+            
             images.push(s);
         }
+
+        console.log(images);
 
         let topImages = images.splice(0,50);
         //let topImages = images.splice(0,Math.ceil(images.length / 3));

@@ -53,7 +53,6 @@ module.exports = {
 
 
             client.on('message', async msg => {
-
                 
                 //blacklist bot servers
                 if (/pokémeow/.test(msg.channel.name)) { return; }
