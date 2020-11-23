@@ -158,7 +158,7 @@ module.exports = {
                     
                     const VRChatUserData =  await VRChat.getUser(msg.content.replace(/^;vrc\s*/,''));
                     const strVRChatUserData=JSON.stringify(VRChatUserData,null,2);
-                    msg.channel.send(strVRChatUserData.replace(/^{/,"").replace(/}$/,"");
+                    msg.channel.send(strVRChatUserData.replace(/^{/,"").replace(/}$/,""));
 
                 } else if (/^;/.test(msg.content)) { // anything else preceeded by a semicolon
                     
