@@ -1,15 +1,15 @@
 const {Client} = require('discord.js');
+const fs = require('fs');
+const path = require('path');
+
+const VRChat = require('../../VRChat/main.js');
+const WolframAlphaAPI = require('../../WolframAlphaAPI/main.js');
+
 const Tenor = require('./tenor.js');
 const Phrases = require('./phrases.js');
 const Settings = require('./fetchSettings.js');
 const Custom = require('./custom.js');
 
-const fs = require('fs');
-const path = require('path');
-
-const {evaluate} = require('mathjs');
-
-const WolframAlphaAPI = require('../../WolframAlphaAPI/main.js');
 
 
 var botInitialized;
@@ -86,9 +86,9 @@ module.exports = {
                 } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
                     //;rem [number] [years/months/days/hours/minutes/seconds])
                     let msgContent = "" ;
-                    const parts = /^;.+\s*(\d+)\s*(\S+)/.exec(msg.content);
-                    const number = parts[1]; //[number]
-                    const multiplier = parts[2]; //[years/months/days/hours/minutes/seconds]
+                    const parts = /^;(remind|reminder|rem|remind me)\s*(\d+)\s*(\S+)/.exec(msg.content);
+                    const number = parts[2]; //[number]
+                    const multiplier = parts[3]; //[years/months/days/hours/minutes/seconds]
                     
                     let timeoutSeconds = 0;
                     let invalid = false;
@@ -154,6 +154,12 @@ module.exports = {
                 //} else if (/^;pin[0-9]*$/.test(msg.content)) { // anything else preceeded by a semicolon and pin
                 //    TODO: save a messages link to the database and retrieve it later
                 //    (what if more than one pin???)
+                } else if (/^;vrc\s*.*$/.test(msg.content)) { // anything else preceeded by a semicolon and pin
+                    
+                    const VRChatUserData =  await VRChat.getUser(msg.content.replace(/^;vrc\s*/,''));
+                    const strVRChatUserData=JSON.stringify(VRChatUserData,null,2);
+                    msg.channel.send(strVRChatUserData);
+
                 } else if (/^;/.test(msg.content)) { // anything else preceeded by a semicolon
                     
                     if (Custom.test(msg.content)) { // check if there is a custom entry
