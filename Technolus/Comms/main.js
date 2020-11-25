@@ -5,7 +5,6 @@ const socket = require("socket.io");
 const path = require("path");
 
 (async () => {
-    console.log(`ran comms main`);
     // App setup
     const PORT = process.env.PORT || 8080;
     console.log(`confirgured port is:${PORT}`);
