@@ -1,16 +1,25 @@
 // <!-- https://stackoverflow.com/questions/36788831/authenticating-socket-io-connections-using-jwt?rq=1 -->
 // <!-- https://outline.com/8YRARh -->
-const express = require("express");
-const socket = require("socket.io");
+// const express = require("express");
+// const socket = require("socket.io");
+// const path = require("path");
+
+
+const express = require('express');
+const app = express();
+const server = require('http').Server(app);
+const io = require('socket.io')(server);
 const path = require("path");
+
+require('./keep-awake.js');
 
 (async () => {
     // App setup
     const PORT = process.env.PORT || 8080;
-    console.log(`confirgured port is:${PORT}`);
-    const app = express();
-    const server = app.listen(PORT, function () {
-        console.log(`${process.env.URL.replace(/:\d+/g,"")}:${PORT}`);
+    //console.log(`configured port is:${PORT}`);
+
+    server.listen(PORT, function () {
+        console.log(`HTTP Server is online! Listening on: ${process.env.URL.replace(/:\d+/g,"")}:${PORT}`);
     });
 
 
@@ -31,8 +40,8 @@ const path = require("path");
 
     });
 
-    // Socket setup
-    const io = socket(server);
+    //// Socket setup
+    //const io = socket(server);
 
     const activeUsers = new Set();
 
@@ -52,6 +61,10 @@ const path = require("path");
 
         socket.on("chat message", function (data) {
             io.emit("chat message", data);
+        });
+
+        socket.on("data", function (data) {
+            io.emit("data", data);
         });
         
         socket.on("typing", function (data) {
