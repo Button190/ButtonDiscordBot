@@ -1,13 +1,9 @@
-<!-- credit: https://www.websocket.org/echo.html -->
 <!DOCTYPE html>
 <meta charset="utf-8" />
 <title>WebSocket Test</title>
 <script language="javascript" type="text/javascript">
 
-var wsUri = "wss://localhost:8080";
-//var wsUri = "wss://echo.websocket.org";
-//var wsUri = new WebSocket("wss://echo.websocket.org");
-//var wsUri = "wss://echo.websocket.org/";
+var wsUri = "ws://localhost:8080/";
 var output;
 
 function init()
@@ -28,7 +24,7 @@ function testWebSocket()
 function onOpen(evt)
 {
   writeToScreen("CONNECTED");
-  doSend(" -- . --- .. ----- .-. ..---- ...");
+  doSend("WebSocket rocks");
 }
 
 function onClose(evt)
