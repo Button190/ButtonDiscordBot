@@ -1,3 +1,5 @@
+// <!-- https://stackoverflow.com/questions/36788831/authenticating-socket-io-connections-using-jwt?rq=1 -->
+// <!-- https://outline.com/8YRARh -->
 const express = require("express");
 const socket = require("socket.io");
 const path = require("path");
