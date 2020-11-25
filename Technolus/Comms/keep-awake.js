@@ -12,4 +12,4 @@ require('dotenv').config();
     });
     setInterval(ping, 20*60*1000); // I have set to 20 mins interval
     setTimeout(ping, 2*1000); // ping it after a couple seconds to avoid a trip to the browser.
-}
+})();
