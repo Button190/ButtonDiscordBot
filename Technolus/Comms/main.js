@@ -8,6 +8,7 @@ const path = require("path");
     console.log(`ran comms main`);
     // App setup
     const PORT = process.env.PORT | 8080;
+    console.log(`confirgured port is:${PORT}`);
     const app = express();
     const server = app.listen(PORT, function () {
         console.log(`${process.env.URL.replace(/:\d+/g,"")}:${PORT}`);
