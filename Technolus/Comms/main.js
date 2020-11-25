@@ -4,7 +4,7 @@ const path = require("path");
 
     
 // App setup
-const PORT = process.env.PORT | 8080;
+const PORT = process.env.PORT | 9898;
 const app = express();
 const server = app.listen(PORT, function () {
     console.log(`${process.env.URL.replace(/:\d+/g,"")}:${PORT}`);
