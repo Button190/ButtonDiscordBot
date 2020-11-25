@@ -19,7 +19,7 @@ const path = require("path");
   // Static files
   app.use(express.static(path.join(__dirname,"public")));
   // app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'ws.html')));
-  
+
   // set the home page route
   app.get('/ping', function(req, res) {
 
@@ -35,7 +35,7 @@ const path = require("path");
   });
 
 
-  app.ws('/', (s, req) => {
+  app.ws('/ws', (s, req) => {
     console.error('websocket connection');
     for (var t = 0; t < 3; t++)
       setTimeout(() => s.send('message from server', ()=>{}), 1000*t);
