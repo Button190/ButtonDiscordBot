@@ -6,33 +6,29 @@
           alert("WebSocket is supported by your Browser!");
     
           // Let us open a web socket
-          var ws = new WebSocket("ws://192.168.1.20:5252/echo");
-          ws.onopen = function()
-          {
+         var ws = new WebSocket("ws://localhost:9898");
+         //var ws = new WebSocket("wss://echo.websocket.org");
+         ws.onopen = function(){
              // Web Socket is connected, send data using send()
-             ws.send("133:L1");
+             ws.send("new user");
              alert("Message is sent...");
           };
-          
-          ws.onmessage = function (evt) 
-          { 
-             var received_msg = evt.data;
-             alert("Message is received...");
-          };
     
-          ws.onclose = function()
-          { 
+          ws.onclose = function() { 
              // websocket is closed.
              alert("Connection is closed..."); 
           };
-       }
-    
-       else
-       {
+          
+          ws.onmessage = function (evt) { 
+             var received_msg = evt.data;
+             alert("Message is received.");
+          }
+      }else{
           // The browser doesn't support WebSocket
           alert("WebSocket NOT supported by your Browser!");
        }
     }
+    WebSocketTest();
 </script>
 
 hello world!
