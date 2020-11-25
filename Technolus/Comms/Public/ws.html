@@ -3,7 +3,13 @@
 <title>WebSocket Test</title>
 <script language="javascript" type="text/javascript">
 
-var wsUri = "ws://localhost:8080/";
+
+if (window.location.hostname == 'localhost' || window.location.hostname == '127.0.0.1'){
+  var wsUri = `ws://${window.location.hostname}:${window.location.port}/`;
+}else{
+  var wsUri = `wss://${window.location.hostname}:${window.location.port}/`;
+}
+
 var output;
 
 function init()
