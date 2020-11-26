@@ -14,7 +14,6 @@ module.exports = {
         search = search.replace(/\s/g, "-").replace(/'/g, "%27"); // dashed instead of spaces
         search = encodeURIComponent(search); // handle spacial chars
 
-        console.log(limit);
         const response = await fetch(`https://api.tenor.com/v1/search?q=${search}$&key=${process.env.TENOR_API_KEY}&limit=${limit}`);
         const data = JSON.parse(await response.text());
 
