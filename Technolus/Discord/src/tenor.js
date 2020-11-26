@@ -5,11 +5,16 @@ module.exports = {
     getTenorImages: async (search, limit) => {
 
         limit = limit || 50
+        if ( limit > 50 ) {
+            //limit = 50;
+            console.error("tenor image limit per request exceeded: max 50");
+        }
 
         // clean up search term
         search = search.replace(/\s/g, "-").replace(/'/g, "%27"); // dashed instead of spaces
         search = encodeURIComponent(search); // handle spacial chars
 
+        console.log(limit);
         const response = await fetch(`https://api.tenor.com/v1/search?q=${search}$&key=${process.env.TENOR_API_KEY}&limit=${limit}`);
         const data = JSON.parse(await response.text());
 
