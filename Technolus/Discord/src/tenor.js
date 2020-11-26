@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 module.exports = {
     getTenorImages: async (search, limit) => {
 
-        limit = limit || 40
+        limit = limit || 50
 
         // clean up search term
         search = search.replace(/\s/g, "-").replace(/'/g, "%27"); // dashed instead of spaces
