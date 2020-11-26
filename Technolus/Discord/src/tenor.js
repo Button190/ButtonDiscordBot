@@ -2,13 +2,15 @@ require('dotenv').config();
 const fetch = require('node-fetch');
 
 module.exports = {
-    getTenorImages: async (search) => {
+    getTenorImages: async (search, limit) => {
+
+        limit = limit || 40
 
         // clean up search term
         search = search.replace(/\s/g, "-").replace(/'/g, "%27"); // dashed instead of spaces
         search = encodeURIComponent(search); // handle spacial chars
 
-        const response = await fetch(`https://api.tenor.com/v1/search?q=${search}$&key=${process.env.TENOR_API_KEY}&limit=40`);
+        const response = await fetch(`https://api.tenor.com/v1/search?q=${search}$&key=${process.env.TENOR_API_KEY}&limit=${limit}`);
         const data = JSON.parse(await response.text());
 
         //console.log(data);

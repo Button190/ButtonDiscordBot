@@ -1,64 +1,89 @@
 import * as uuid from 'uuid';
 import dynamoDb from '../../lib/dynamo-db';
 
+import Cors from 'cors'
+import initMiddleware from '../../lib/init-middleware'
+
+// Initialize the cors middleware
+const cors = initMiddleware(
+  // You can read more about the available options here: https://github.com/expressjs/cors#configuration-options
+  Cors({
+    //origin: "*",
+    // Only allow requests with GET, POST and OPTIONS
+    methods: ['GET', 'POST'],
+  })
+)
+
 export default async function handler(req, res) {
-  if (req.method === 'PUT') {
-    const item = {
-      id: uuid.v4(),
-      content: req.body.content,
-      createdAt: Date.now()
-    };
 
-    await dynamoDb.put({
-      Item: item
-    });
+  //Run cors
+  await cors(req, res)  
 
-    res.status(201).json(item);
-  }
+  // if (req.method === 'PUT') {
+  //   const item = {
+  //     id: uuid.v4(),
+  //     content: req.body.content,
+  //     createdAt: Date.now()
+  //   };
+
+  //   await dynamoDb.put({
+  //     Item: item
+  //   });
+
+  //   res.status(201).json(item);
+  // }
 
   if (req.method === 'GET' && !req.query.fuzzy) {
-    console.log(req.query);
+    //console.log(req.query);
     const { Item } = await dynamoDb.get({
       Key: {
         user: req.query.user,
-        space: req.query.space
+        project: req.query.project
       }
     });
 
     res.status(200).json(Item);
   }
   
+  // get items with primary key and beguining with sort key
   if (req.method === 'GET' && req.query.fuzzy) {
     //console.log(req.query);
-
-    const Item = await dynamoDb.query({
-      KeyConditionExpression: "#user = :user and begins_with(#space, :space)",
-      //KeyConditionExpression: "#user = :user and #space = :space",
-      ExpressionAttributeNames:{
-        "#user": "user",
-        "#space": "space"
-      },
-      ExpressionAttributeValues: {
+      const Item = await dynamoDb.query({
+        KeyConditionExpression: "#user = :user and begins_with(#project, :project)",
+        ExpressionAttributeNames:{
+            "#user": "user",
+            "#project": "project"
+        },
+        ExpressionAttributeValues: {
           ":user": req.query.user,
-          ":space": req.query.space
-      }
+          ":project": req.query.project,
+        },
+      });
 
-    });
-
-    //console.log(Item);
     res.status(200).json(Item);
   }
 
+
   if (req.method === 'POST') {
+    const params = JSON.parse(req.body);
+
     const { Attributes } = await dynamoDb.update({
       Key: {
-        id: req.body.id
+        "user": params.user,
+        "project": params.project
       },
-      UpdateExpression: 'SET content = :content',
+      //UpdateExpression: "SET #project = if_not_exists(#project, :project), #value = :value",
+      //UpdateExpression: "#user = :user, #project = :project, #value = :value",
+      UpdateExpression: "SET #value = :value",
+      ExpressionAttributeNames:{
+        //"#user": "user",
+        //"#project": "project",
+        "#value": "value",
+      },
       ExpressionAttributeValues: {
-        ':content': req.body.content || null
+        ":value": params.value,
       },
-      ReturnValues: 'ALL_NEW'
+        ReturnValues: "UPDATED_NEW" // 'ALL_NEW'
     });
 
     res.status(200).json(Attributes);
@@ -67,7 +92,8 @@ export default async function handler(req, res) {
   if (req.method === 'DELETE') {
     await dynamoDb.delete({
       Key: {
-        id: req.query.id
+        user: req.query.user,
+        project: req.query.project
       }
     });
 

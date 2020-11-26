@@ -84,7 +84,7 @@ const token = process.env.DISCORD_BOT_TOKEN;
 
                 const TenorSearchTerm = Phrases.getRandomPhrase(path.join(__dirname, './settings/tenor-search-terms'));
 
-                const images = await Tenor.getTenorImages(TenorSearchTerm);
+                const images = await Tenor.getTenorImages(TenorSearchTerm, 100);
                 let randomIndex = Math.floor(Math.random() * images.length); 
                 const randomImage = images[randomIndex];
                 //console.log(randomImage);
