@@ -44,7 +44,7 @@ module.exports = {
             // 2 - test the text, if matches 720p, store in array
 
             // let hyperlinks = []
-            // $('table>tbody>tr>td>a:nth-child(2)').each( async function(index, element) {
+            // $('td').each( async function(index, element) {
             //     hyperlinks.push({
             //         title: $(element).text(),
             //         href: $(element).attr('href'),
