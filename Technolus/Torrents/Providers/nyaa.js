@@ -9,8 +9,8 @@ module.exports = {
                 //.replace(/%20/g, "+")
                 //.replace(/'/g, "%27"); 
 
-        const baseUrl = 'https://1337x.to';
-        const url = `${baseUrl}/sort-search/${search}/seeders/desc/1/`;
+        const baseUrl = 'https://nyaa.si';
+        const url = `${baseUrl}/?q=${search}&f=0&c=0_0&`;
         //console.log( url );
         const response = await fetch(url,{
             method: 'get',
@@ -27,13 +27,13 @@ module.exports = {
 
         //console.log( $("h2").text() );
 
-        if ( /No results were returned\. Please refine your search\./.test( $('.box-info-detail').text() ) ) {
+        if ( /No results found\./.test( $('body>div>h3').text() ) ) {
             //no torrents for this search.
             //console.log( "No results!" );
             return [];
         }
         
-        
+        // ------------------------------------------------------------------------------------------------ I'M HERE !!!!!
         //console.log( "proceeding with results!" );
         
         let hyperlinks = []

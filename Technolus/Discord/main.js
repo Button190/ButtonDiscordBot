@@ -116,6 +116,17 @@ const token = process.env.DISCORD_BOT_TOKEN;
                     msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}\n`);
                 }
 
+            } else if (/^;ani\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
+                
+                const torSearchTerm = /^;ani\s+(.+)/.exec(msg.content)[1];
+                const torResult = await Torrents.getAnimeTorrent( torSearchTerm );
+                //console.log(torResult);
+                if (torResult === []){
+                    msg.channel.send(`No results were found for: ${torSearchTerm}`);
+                }else{
+                    msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}\n`);
+                }
+
             } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
                 //;rem [number] [years/months/days/hours/minutes/seconds])
                 let msgContent = "" ;

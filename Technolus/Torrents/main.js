@@ -7,7 +7,7 @@ module.exports = {
     },
     getAnimeTorrent: async (search, quality) => {
         quality = quality || '720';
-        return await require('./Providers/nyan').get(search, quality);
+        return await require('./Providers/nyaa').get(search, quality);
     },
 }
 
