@@ -20,6 +20,7 @@ const path = require('path');
 
 const VRChat = require('../VRChat/main.js');
 const WolframAlphaAPI = require('../WolframAlphaAPI/main.js');
+const Torrents = require('../Torrents/main.js');
 
 const Tenor = require('./src/tenor.js');
 const Phrases = require('./src/phrases.js');
@@ -79,6 +80,8 @@ const token = process.env.DISCORD_BOT_TOKEN;
             const channel = client.channels.cache.find(channel => channel.name === msg.channel.name);
 
             if (msg.author.bot) { return; }
+
+            console.log(msg.author.username);
             
             if (channel.name === "random") {
 
@@ -100,6 +103,18 @@ const token = process.env.DISCORD_BOT_TOKEN;
                         msg.content.substring(2)
                     )
                 )
+
+            
+            } else if (/^;tor\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
+                
+                const torSearchTerm = /^;tor\s+(.+)/.exec(msg.content)[1];
+                const torResult = await Torrents.getTorrent( torSearchTerm );
+                //console.log(torResult);
+                if (torResult === []){
+                    msg.channel.send(`No results were found for: ${torSearchTerm}`);
+                }else{
+                    msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}\n`);
+                }
 
             } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
                 //;rem [number] [years/months/days/hours/minutes/seconds])

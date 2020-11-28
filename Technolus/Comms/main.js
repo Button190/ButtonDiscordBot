@@ -20,7 +20,7 @@ const path = require("path");
   app.use(express.static(path.join(__dirname,"public")));
   // app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'ws.html')));
 
-  // set the home page route
+  // set the ping page route (ping was averaging 133ms)
   app.get('/ping', function(req, res) {
 
       //return an answer just to make it visible on the front end.
