@@ -188,11 +188,10 @@ const token = process.env.DISCORD_BOT_TOKEN;
             //    TODO: save a messages link to the database and retrieve it later
             //    (what if more than one pin???)
 
-            // } else if (/^;vrc\s*.*$/.test(msg.content)) { // anything else preceeded by a semicolon and pin
-                
-            //     const VRChatUserData =  await VRChat.getUser(msg.content.replace(/^;vrc\s*/,''));
-            //     const strVRChatUserData=JSON.stringify(VRChatUserData,null,2);
-            //     msg.channel.send(strVRChatUserData.replace(/^{/,"").replace(/}$/,""));
+            } else if (/^;vrc\s*.*$/.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and pin                
+                const VRChatUserData =  await VRChat.getUser(msg.content.replace(/^;vrc\s*/,''));
+                const strVRChatUserData=JSON.stringify(VRChatUserData,null,2);
+                msg.channel.send(strVRChatUserData.replace(/^{/,"").replace(/}$/,""));
 
             } else if (/^;/.test(msg.content)) { // anything else preceeded by a semicolon
                 
