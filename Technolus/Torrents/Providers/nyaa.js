@@ -40,41 +40,41 @@ module.exports = {
             
             // ------------------------------------------------------------------------------------------------ I'M HERE !!!!!
 
-            // 1 - for each default td, get text and magnet
+            // 1 - for each default tr, get text and magnet td's
             // 2 - test the text, if matches 720p, store in array
 
-            let hyperlinks = []
-            $('table>tbody>tr>td>a:nth-child(2)').each( async function(index, element) {
-                hyperlinks.push({
-                    title: $(element).text(),
-                    href: $(element).attr('href'),
-                });
-            });      
+            // let hyperlinks = []
+            // $('table>tbody>tr>td>a:nth-child(2)').each( async function(index, element) {
+            //     hyperlinks.push({
+            //         title: $(element).text(),
+            //         href: $(element).attr('href'),
+            //     });
+            // });      
             
 
-            let magnets = [];
-            flagFound = false;
-            for(let element of hyperlinks ) {
+            // let magnets = [];
+            // flagFound = false;
+            // for(let element of hyperlinks ) {
                 
-                if ( ! flagFound ){
+            //     if ( ! flagFound ){
                     
-                    if ( /720p/.test(element.title) ) {
-                        flagFound = true;
+            //         if ( /720p/.test(element.title) ) {
+            //             flagFound = true;
                         
-                        const url = baseUrl + element.href;
+            //             const url = baseUrl + element.href;
                         
-                        magnets.push({
-                            title: element.title,
-                            magnet: $(element2).attr('href'),
-                        });
-                        //console.log($(element).attr('href'));
+            //             magnets.push({
+            //                 title: element.title,
+            //                 magnet: $(element2).attr('href'),
+            //             });
+            //             //console.log($(element).attr('href'));
                         
                         
-                    }
+            //         }
                     
-                }
+            //     }
                 
-            }
+            // }
             
             
 
