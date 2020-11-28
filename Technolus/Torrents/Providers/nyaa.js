@@ -37,7 +37,7 @@ module.exports = {
         
         
         $('.default').each(function (index, element) {
-            
+            $(element).
             // ------------------------------------------------------------------------------------------------ I'M HERE !!!!!
 
             // 1 - for each default tr, get text and magnet td's
