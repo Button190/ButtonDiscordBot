@@ -81,7 +81,9 @@ const token = process.env.DISCORD_BOT_TOKEN;
 
             if (msg.author.bot) { return; }
 
-            console.log(msg.author.username);
+            //if (channelId = "726654221163954226/726654221163954229"){
+            //    console.log(msg.author.username);
+            //}
             
             if (channel.name === "random") {
 
@@ -118,7 +120,7 @@ const token = process.env.DISCORD_BOT_TOKEN;
 
             } else if (/^;tor_\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
                 
-                const torSearchTerm = /^;torl\s+(.+)/.exec(msg.content)[1];
+                const torSearchTerm = /^;tor_\s+(.+)/.exec(msg.content)[1];
                 const torResult = await Torrents.getTorrent( torSearchTerm );
                 //console.log(torResult);
                 if (torResult === []){
