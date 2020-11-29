@@ -113,7 +113,18 @@ const token = process.env.DISCORD_BOT_TOKEN;
                 if (torResult === []){
                     msg.channel.send(`No results were found for: ${torSearchTerm}`);
                 }else{
-                    msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}\nMyLink:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m ${torResult[0].magnet}`);
+                    msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}`);
+                }
+
+            } else if (/^;tor_\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
+                
+                const torSearchTerm = /^;tor_\s+(.+)/.exec(msg.content)[1];
+                const torResult = await Torrents.getTorrent( torSearchTerm );
+                //console.log(torResult);
+                if (torResult === []){
+                    msg.channel.send(`No results were found for: ${torSearchTerm}`);
+                }else{
+                    msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}\nMyLink:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m%20${torResult[0].magnet}`);
                 }
 
             } else if (/^;ani\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
@@ -124,7 +135,7 @@ const token = process.env.DISCORD_BOT_TOKEN;
                 if (torResult === []){
                     msg.channel.send(`No results were found for: ${torSearchTerm}`);
                 }else{
-                    msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}\nMyLink:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m ${torResult[0].magnet}`);
+                    msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}\nMyLink:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m%20${torResult[0].magnet}`);
                 }
 
             } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
