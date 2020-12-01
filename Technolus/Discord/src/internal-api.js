@@ -4,10 +4,10 @@ var moment = require('moment-timezone');
 
 module.exports = {
     getHeartRate: async (params) => {
-        const response = await fetch(`${process.env.URL.replace(/\/$/,'')}/heartrate`);
+        const response = await fetch(`${process.env.URL.replace(/\/$/g,'')}/heartrate`);
         const data = JSON.parse(await response.text());
 
-        console.log(data);
+        //console.log(data);
 
         let timestamp = moment(data[0].T);
 
