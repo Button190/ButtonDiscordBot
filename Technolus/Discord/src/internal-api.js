@@ -21,7 +21,7 @@ module.exports = {
 
 :heartbeat: ${data[0].f} bpm`;
 
-        console.log(msg);
+        //console.log(msg);
 
         return msg;
         
