@@ -49,15 +49,14 @@
         fetch('/heartrate?limit=500')
           .then((resp) => resp.json())
           .then(function (data) {
-            dps = [];
+            
             //console.info('fetch()', data);
 
             // count is number of times loop runs to generate random dataPoints.
             
             const params = new URLSearchParams(window.location.search);
-
-
-            let n_avg = params.get('n') || 1;
+            //let n_avg = 100 || params.get('n');
+            let n_avg = params.get('n');
             for (var j = n_avg-1; j < data.length; j++) {
               
               let bpm_avg = 0;
