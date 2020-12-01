@@ -4,7 +4,7 @@ var moment = require('moment-timezone');
 
 module.exports = {
     getHeartRate: async (params) => {
-        const response = await fetch(`${process.env.URL}/heartrate`);
+        const response = await fetch(`${process.env.URL.replace(/\/$/,'')}/heartrate`);
         const data = JSON.parse(await response.text());
 
         console.log(data);
@@ -13,7 +13,7 @@ module.exports = {
 
         let format = ' YYYY-MM-DD hh:mma (z)'; // [[]Z[]]
         let msg = `Last Seen Alive:
-  ${ timestamp.tz('Europe/Portugal').format(format.replace('(z)','[(GMT)]')) }
+  ${ timestamp.tz('Europe/Lisbon').format(format) }
   ${ timestamp.tz('America/New_York').format(format) }
   ${ timestamp.tz('America/Los_Angeles').format(format) }
   ${ timestamp.tz('Israel').format(format) }
