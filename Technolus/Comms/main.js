@@ -29,9 +29,8 @@ const path = require('path');
 }));
 
   // Static files
-  //app.use(express.static(path.join(__dirname,'public')));
-  // app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'ws.html')));
-  app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'public', 'index.html')));
+  app.use(express.static(path.join(__dirname,'Public')));
+  // app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'Public', 'ws.html')));
 
   // ping page route (ping was averaging 133ms)
   app.get('/ping', function(req, res) {
