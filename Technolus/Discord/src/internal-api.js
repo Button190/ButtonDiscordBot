@@ -16,10 +16,11 @@ module.exports = {
     if (data.length > n_avg) {
 
       for (let i = 0; i < n_avg; i++) {
-        bpm_avg += data[n_avg].f
+        bpm_avg += data[i].f;
+        //console.log(data[i].f);
       }
 
-      bpm_avg = bpm_avg / n_avg;
+      bpm_avg = Math.round(bpm_avg / n_avg);
 
     }
 
@@ -32,7 +33,7 @@ module.exports = {
   ${timestamp.tz('Israel').format(format)}
   ${timestamp.tz('Australia/Sydney').format(format)}
 
-:heartbeat: **${data[0].f}** _bpm_`;
+:heartbeat: **${bpm_avg}** _bpm_`;//data[0].f
 
     //console.log(msg);
 

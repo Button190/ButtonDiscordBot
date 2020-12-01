@@ -1,0 +1,108 @@
+<!-- views/pages/auth.ejs -->
+<!doctype html>
+<html>
+
+<head>
+  <title>Google SignIn</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    body {
+      padding-top: 70px;
+      font-family: 'Roboto', sans-serif;
+      background-color: #101214;
+      color: #7A7C80;
+    }
+  </style>
+  <script>
+    
+    // chart from:
+    //https://canvasjs.com/javascript-charts/
+
+    //maybe replace with a range area chart? the area would be the difference between one point and the next(top range) and the previous(bottom range)
+    //https://canvasjs.com/javascript-charts/range-area-line-chart/
+
+    // check charts from https://www.chartjs.org/ , they have better look/feel (but are they actuaslly better???)
+    
+    window.onload = function () {
+
+      var dps = [];
+      var chart = new CanvasJS.Chart("chartContainer", {
+        exportEnabled: false,
+        title: {
+          text: ""
+        },
+        data: [{
+          type: "spline",
+          markerSize: 0,
+          dataPoints: dps
+        }]
+      });
+
+      var xVal = 0;
+      var yVal = 0;
+      var updateInterval = 4 * 60 * 1000;
+      var dataLength = 1000; // max number of dataPoints visible at any point
+
+      var updateChart = function (count, data) {
+
+        fetch('/heartrate?limit=500')
+          .then((resp) => resp.json())
+          .then(function (data) {
+
+            //console.info('fetch()', data);
+
+            // count is number of times loop runs to generate random dataPoints.
+            
+            const params = new URLSearchParams(window.location.search);
+            //let n_avg = 100 || params.get('n');
+            let n_avg = params.get('n');
+            for (var j = n_avg-1; j < data.length; j++) {
+              
+              let bpm_avg = 0;
+
+              for (let i = 0; i < n_avg; i++) {
+                bpm_avg += data[j-i].f; //console.log(data[i].f);
+              }
+
+              bpm_avg = Math.round(bpm_avg / n_avg);
+
+              dps.push({
+                //x:  new Date(data[j].T) ,//xVal,
+                x:  new Date((new Date(data[j].T)).getTime() + (n_avg/2)*60*1000) ,//xVal,
+                y: bpm_avg
+              });
+
+              xVal++;
+
+            }
+            if (dps.length > dataLength) {
+              dps.shift();
+            }
+            chart.render();
+            document.querySelector('.canvasjs-chart-credit').style.display = 'none';
+          });
+
+
+      }
+
+      updateChart(dataLength);
+      setInterval(function () { updateChart() }, updateInterval);
+      
+    }
+  </script>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="jumbotron text-center text-primary">
+      <h1><span class="fa fa-heart"></span> Plotting Heart Rate <span class="fa fa-heart"></span></h1>
+      <div id="chartContainer" style="height: 370px; width:100%;"></div>
+
+    </div>
+  </div>
+  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+</body>
+
+</html>

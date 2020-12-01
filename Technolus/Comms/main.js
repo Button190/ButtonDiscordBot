@@ -190,7 +190,18 @@ const path = require('path');
       // Successful authentication, get data.
       await passportAutentication(userCreds);
       //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
-      res.send( await getHeartRate() );
+      res.send( await getHeartRate(req.query.limit) );
+    }
+  });
+  
+  app.get('/graph_hr', async (req, res) => {
+    if (!userProfile) {
+      res.redirect('/login')
+    }else{
+      // Successful authentication, get data.
+      await passportAutentication(userCreds);
+      //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
+      res.render('pages/graph_hr');
     }
   });
 
@@ -322,7 +333,7 @@ const path = require('path');
 
 
   //dataSourceId: 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
-  async function getHeartRate() {//(client)
+  async function getHeartRate(limit) {//(client)
     // retrieve user profile
     
     let deltaMinutes = 24*60;
@@ -332,12 +343,12 @@ const path = require('path');
     const fitness = google.fitness('v1');
     const res = await fitness.users.dataSources.datasets.get({
       'userId': 'me',
-      'dataSourceId': 'raw:com.google.heart_rate.bpm:com.xiaomi.hm.health:',
-      //'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm',
+      //'dataSourceId': 'raw:com.google.heart_rate.bpm:com.xiaomi.hm.health:',
+      'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm',
       //'dataSourceId': 'derived:com.google.heart_minutes:com.google.android.gms:merge_heart_minutes',
       //'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate',
       'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
-      'limit': '20',
+      'limit': limit||'20',
     });
 
     datapoints = [];
