@@ -34,9 +34,8 @@ var botInitialized;
 
 const token = process.env.DISCORD_BOT_TOKEN;
 
-
 (async () => {
-    if (!botInitialized) {
+    if (!botInitialized ) {
 
         botInitialized = true;
 
@@ -70,7 +69,6 @@ const token = process.env.DISCORD_BOT_TOKEN;
 
 
         client.on('message', async msg => {
-            
             //blacklist bot servers
             if (/pokémeow/.test(msg.channel.name)) { return; }
             
@@ -140,6 +138,9 @@ const token = process.env.DISCORD_BOT_TOKEN;
                     msg.channel.send( `Title: **_${torResult[0].title}_**\nDownload:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m%20${torResult[0].magnet}`);
                 }
 
+            } else if (/^;alive\?/i.test(msg.content) ) { // && msg.author.id === '736086531491627080' // anything else preceeded by a semicolon and an equal sign
+                msg.channel.send( await require('./src/internalAPI').getHeartRate());
+            
             } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
                 //;rem [number] [years/months/days/hours/minutes/seconds])
                 let msgContent = "" ;

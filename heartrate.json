@@ -1,0 +1,6007 @@
+{
+    "insertedDataPoint": [
+        {
+            "startTimeNanos": "1606619100000000000",
+            "endTimeNanos": "1606619100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606619220000000000",
+            "endTimeNanos": "1606619220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606619340000000000",
+            "endTimeNanos": "1606619340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606619460000000000",
+            "endTimeNanos": "1606619460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618620000000000",
+            "endTimeNanos": "1606618620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618740000000000",
+            "endTimeNanos": "1606618740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618860000000000",
+            "endTimeNanos": "1606618860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 46,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618980000000000",
+            "endTimeNanos": "1606618980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618140000000000",
+            "endTimeNanos": "1606618140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618260000000000",
+            "endTimeNanos": "1606618260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618380000000000",
+            "endTimeNanos": "1606618380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618500000000000",
+            "endTimeNanos": "1606618500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606617660000000000",
+            "endTimeNanos": "1606617660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606617780000000000",
+            "endTimeNanos": "1606617780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 70,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606617900000000000",
+            "endTimeNanos": "1606617900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 59,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606618020000000000",
+            "endTimeNanos": "1606618020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606621020000000000",
+            "endTimeNanos": "1606621020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606621140000000000",
+            "endTimeNanos": "1606621140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606621260000000000",
+            "endTimeNanos": "1606621260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 69,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606620540000000000",
+            "endTimeNanos": "1606620540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606620660000000000",
+            "endTimeNanos": "1606620660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606620780000000000",
+            "endTimeNanos": "1606620780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606620900000000000",
+            "endTimeNanos": "1606620900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606620060000000000",
+            "endTimeNanos": "1606620060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606620180000000000",
+            "endTimeNanos": "1606620180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606620300000000000",
+            "endTimeNanos": "1606620300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 54,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606620420000000000",
+            "endTimeNanos": "1606620420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606619580000000000",
+            "endTimeNanos": "1606619580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606619700000000000",
+            "endTimeNanos": "1606619700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 49,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606619820000000000",
+            "endTimeNanos": "1606619820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606619940000000000",
+            "endTimeNanos": "1606619940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606622940000000000",
+            "endTimeNanos": "1606622940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606623060000000000",
+            "endTimeNanos": "1606623060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 49,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606623180000000000",
+            "endTimeNanos": "1606623180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 54,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606623300000000000",
+            "endTimeNanos": "1606623300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 60,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606622580000000000",
+            "endTimeNanos": "1606622580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606622700000000000",
+            "endTimeNanos": "1606622700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606622820000000000",
+            "endTimeNanos": "1606622820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 63,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606621980000000000",
+            "endTimeNanos": "1606621980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606622100000000000",
+            "endTimeNanos": "1606622100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606622220000000000",
+            "endTimeNanos": "1606622220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 49,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606622340000000000",
+            "endTimeNanos": "1606622340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 149,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606621500000000000",
+            "endTimeNanos": "1606621500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 69,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606621620000000000",
+            "endTimeNanos": "1606621620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 49,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606621740000000000",
+            "endTimeNanos": "1606621740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606621860000000000",
+            "endTimeNanos": "1606621860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 49,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624800000000000",
+            "endTimeNanos": "1606624800000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 67,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624860000000000",
+            "endTimeNanos": "1606624860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624920000000000",
+            "endTimeNanos": "1606624920000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624980000000000",
+            "endTimeNanos": "1606624980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606625040000000000",
+            "endTimeNanos": "1606625040000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606625100000000000",
+            "endTimeNanos": "1606625100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 67,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606625160000000000",
+            "endTimeNanos": "1606625160000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606625220000000000",
+            "endTimeNanos": "1606625220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624380000000000",
+            "endTimeNanos": "1606624380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 94,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624500000000000",
+            "endTimeNanos": "1606624500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624560000000000",
+            "endTimeNanos": "1606624560000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624620000000000",
+            "endTimeNanos": "1606624620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624680000000000",
+            "endTimeNanos": "1606624680000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624740000000000",
+            "endTimeNanos": "1606624740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606623900000000000",
+            "endTimeNanos": "1606623900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624020000000000",
+            "endTimeNanos": "1606624020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 86,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624140000000000",
+            "endTimeNanos": "1606624140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606624260000000000",
+            "endTimeNanos": "1606624260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606623420000000000",
+            "endTimeNanos": "1606623420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 63,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606623540000000000",
+            "endTimeNanos": "1606623540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 58,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606623660000000000",
+            "endTimeNanos": "1606623660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 54,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606623780000000000",
+            "endTimeNanos": "1606623780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606611420000000000",
+            "endTimeNanos": "1606611420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606611540000000000",
+            "endTimeNanos": "1606611540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606611660000000000",
+            "endTimeNanos": "1606611660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606611780000000000",
+            "endTimeNanos": "1606611780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606610940000000000",
+            "endTimeNanos": "1606610940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 94,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606611060000000000",
+            "endTimeNanos": "1606611060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 47,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606611180000000000",
+            "endTimeNanos": "1606611180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606611300000000000",
+            "endTimeNanos": "1606611300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606610460000000000",
+            "endTimeNanos": "1606610460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 60,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606610580000000000",
+            "endTimeNanos": "1606610580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 56,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606610700000000000",
+            "endTimeNanos": "1606610700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606610820000000000",
+            "endTimeNanos": "1606610820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 45,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609980000000000",
+            "endTimeNanos": "1606609980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 54,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606610100000000000",
+            "endTimeNanos": "1606610100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606610220000000000",
+            "endTimeNanos": "1606610220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 56,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606610340000000000",
+            "endTimeNanos": "1606610340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606613340000000000",
+            "endTimeNanos": "1606613340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 54,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606613460000000000",
+            "endTimeNanos": "1606613460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606613580000000000",
+            "endTimeNanos": "1606613580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606613700000000000",
+            "endTimeNanos": "1606613700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612860000000000",
+            "endTimeNanos": "1606612860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612980000000000",
+            "endTimeNanos": "1606612980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606613100000000000",
+            "endTimeNanos": "1606613100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606613220000000000",
+            "endTimeNanos": "1606613220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612380000000000",
+            "endTimeNanos": "1606612380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612500000000000",
+            "endTimeNanos": "1606612500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612620000000000",
+            "endTimeNanos": "1606612620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612740000000000",
+            "endTimeNanos": "1606612740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606611900000000000",
+            "endTimeNanos": "1606611900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612020000000000",
+            "endTimeNanos": "1606612020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612140000000000",
+            "endTimeNanos": "1606612140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606612260000000000",
+            "endTimeNanos": "1606612260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615260000000000",
+            "endTimeNanos": "1606615260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615380000000000",
+            "endTimeNanos": "1606615380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615500000000000",
+            "endTimeNanos": "1606615500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 57,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615620000000000",
+            "endTimeNanos": "1606615620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 63,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606614780000000000",
+            "endTimeNanos": "1606614780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606614900000000000",
+            "endTimeNanos": "1606614900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615020000000000",
+            "endTimeNanos": "1606615020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615140000000000",
+            "endTimeNanos": "1606615140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 54,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606614300000000000",
+            "endTimeNanos": "1606614300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606614420000000000",
+            "endTimeNanos": "1606614420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 49,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606614540000000000",
+            "endTimeNanos": "1606614540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606614660000000000",
+            "endTimeNanos": "1606614660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606613820000000000",
+            "endTimeNanos": "1606613820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606613940000000000",
+            "endTimeNanos": "1606613940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 54,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606614060000000000",
+            "endTimeNanos": "1606614060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 53,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606614180000000000",
+            "endTimeNanos": "1606614180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606617180000000000",
+            "endTimeNanos": "1606617180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 59,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606617300000000000",
+            "endTimeNanos": "1606617300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 67,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606617420000000000",
+            "endTimeNanos": "1606617420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606617540000000000",
+            "endTimeNanos": "1606617540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606616700000000000",
+            "endTimeNanos": "1606616700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 59,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606616820000000000",
+            "endTimeNanos": "1606616820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606616940000000000",
+            "endTimeNanos": "1606616940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 56,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606617060000000000",
+            "endTimeNanos": "1606617060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606616220000000000",
+            "endTimeNanos": "1606616220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 59,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606616340000000000",
+            "endTimeNanos": "1606616340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606616460000000000",
+            "endTimeNanos": "1606616460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606616580000000000",
+            "endTimeNanos": "1606616580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615740000000000",
+            "endTimeNanos": "1606615740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 59,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615860000000000",
+            "endTimeNanos": "1606615860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606615980000000000",
+            "endTimeNanos": "1606615980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 49,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606616100000000000",
+            "endTimeNanos": "1606616100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609500000000000",
+            "endTimeNanos": "1606609500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 55,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609620000000000",
+            "endTimeNanos": "1606609620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 54,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609740000000000",
+            "endTimeNanos": "1606609740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 56,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609860000000000",
+            "endTimeNanos": "1606609860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609020000000000",
+            "endTimeNanos": "1606609020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 49,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609140000000000",
+            "endTimeNanos": "1606609140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609260000000000",
+            "endTimeNanos": "1606609260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606609380000000000",
+            "endTimeNanos": "1606609380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 52,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606608540000000000",
+            "endTimeNanos": "1606608540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606608660000000000",
+            "endTimeNanos": "1606608660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 51,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606608780000000000",
+            "endTimeNanos": "1606608780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 48,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606608900000000000",
+            "endTimeNanos": "1606608900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 50,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606608060000000000",
+            "endTimeNanos": "1606608060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606608180000000000",
+            "endTimeNanos": "1606608180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 94,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606608300000000000",
+            "endTimeNanos": "1606608300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 94,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606608420000000000",
+            "endTimeNanos": "1606608420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649760000000000",
+            "endTimeNanos": "1606649760000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649820000000000",
+            "endTimeNanos": "1606649820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649880000000000",
+            "endTimeNanos": "1606649880000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649940000000000",
+            "endTimeNanos": "1606649940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650000000000000",
+            "endTimeNanos": "1606650000000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650060000000000",
+            "endTimeNanos": "1606650060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650120000000000",
+            "endTimeNanos": "1606650120000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650180000000000",
+            "endTimeNanos": "1606650180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649280000000000",
+            "endTimeNanos": "1606649280000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649340000000000",
+            "endTimeNanos": "1606649340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649400000000000",
+            "endTimeNanos": "1606649400000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649460000000000",
+            "endTimeNanos": "1606649460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649520000000000",
+            "endTimeNanos": "1606649520000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 87,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649580000000000",
+            "endTimeNanos": "1606649580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649640000000000",
+            "endTimeNanos": "1606649640000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649700000000000",
+            "endTimeNanos": "1606649700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 88,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648800000000000",
+            "endTimeNanos": "1606648800000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648860000000000",
+            "endTimeNanos": "1606648860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648920000000000",
+            "endTimeNanos": "1606648920000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648980000000000",
+            "endTimeNanos": "1606648980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649040000000000",
+            "endTimeNanos": "1606649040000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649100000000000",
+            "endTimeNanos": "1606649100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649160000000000",
+            "endTimeNanos": "1606649160000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606649220000000000",
+            "endTimeNanos": "1606649220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648320000000000",
+            "endTimeNanos": "1606648320000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648380000000000",
+            "endTimeNanos": "1606648380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648440000000000",
+            "endTimeNanos": "1606648440000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648500000000000",
+            "endTimeNanos": "1606648500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648560000000000",
+            "endTimeNanos": "1606648560000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648620000000000",
+            "endTimeNanos": "1606648620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648680000000000",
+            "endTimeNanos": "1606648680000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648740000000000",
+            "endTimeNanos": "1606648740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651680000000000",
+            "endTimeNanos": "1606651680000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 88,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651740000000000",
+            "endTimeNanos": "1606651740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651800000000000",
+            "endTimeNanos": "1606651800000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651860000000000",
+            "endTimeNanos": "1606651860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651920000000000",
+            "endTimeNanos": "1606651920000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651980000000000",
+            "endTimeNanos": "1606651980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652040000000000",
+            "endTimeNanos": "1606652040000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652100000000000",
+            "endTimeNanos": "1606652100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651200000000000",
+            "endTimeNanos": "1606651200000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651260000000000",
+            "endTimeNanos": "1606651260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 98,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651320000000000",
+            "endTimeNanos": "1606651320000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651380000000000",
+            "endTimeNanos": "1606651380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651440000000000",
+            "endTimeNanos": "1606651440000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651500000000000",
+            "endTimeNanos": "1606651500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 85,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651560000000000",
+            "endTimeNanos": "1606651560000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651620000000000",
+            "endTimeNanos": "1606651620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650720000000000",
+            "endTimeNanos": "1606650720000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650780000000000",
+            "endTimeNanos": "1606650780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650840000000000",
+            "endTimeNanos": "1606650840000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650900000000000",
+            "endTimeNanos": "1606650900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650960000000000",
+            "endTimeNanos": "1606650960000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651020000000000",
+            "endTimeNanos": "1606651020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651080000000000",
+            "endTimeNanos": "1606651080000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606651140000000000",
+            "endTimeNanos": "1606651140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650240000000000",
+            "endTimeNanos": "1606650240000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650300000000000",
+            "endTimeNanos": "1606650300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650360000000000",
+            "endTimeNanos": "1606650360000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650420000000000",
+            "endTimeNanos": "1606650420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650480000000000",
+            "endTimeNanos": "1606650480000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650540000000000",
+            "endTimeNanos": "1606650540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650600000000000",
+            "endTimeNanos": "1606650600000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606650660000000000",
+            "endTimeNanos": "1606650660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652640000000000",
+            "endTimeNanos": "1606652640000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652700000000000",
+            "endTimeNanos": "1606652700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652760000000000",
+            "endTimeNanos": "1606652760000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652820000000000",
+            "endTimeNanos": "1606652820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652880000000000",
+            "endTimeNanos": "1606652880000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652940000000000",
+            "endTimeNanos": "1606652940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 88,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606653000000000000",
+            "endTimeNanos": "1606653000000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 92,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652160000000000",
+            "endTimeNanos": "1606652160000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652220000000000",
+            "endTimeNanos": "1606652220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652280000000000",
+            "endTimeNanos": "1606652280000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652340000000000",
+            "endTimeNanos": "1606652340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652400000000000",
+            "endTimeNanos": "1606652400000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652460000000000",
+            "endTimeNanos": "1606652460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652520000000000",
+            "endTimeNanos": "1606652520000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606652580000000000",
+            "endTimeNanos": "1606652580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642080000000000",
+            "endTimeNanos": "1606642080000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642140000000000",
+            "endTimeNanos": "1606642140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642200000000000",
+            "endTimeNanos": "1606642200000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642260000000000",
+            "endTimeNanos": "1606642260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642320000000000",
+            "endTimeNanos": "1606642320000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 93,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642380000000000",
+            "endTimeNanos": "1606642380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642440000000000",
+            "endTimeNanos": "1606642440000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642500000000000",
+            "endTimeNanos": "1606642500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641600000000000",
+            "endTimeNanos": "1606641600000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 85,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641660000000000",
+            "endTimeNanos": "1606641660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641720000000000",
+            "endTimeNanos": "1606641720000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641780000000000",
+            "endTimeNanos": "1606641780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641840000000000",
+            "endTimeNanos": "1606641840000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641900000000000",
+            "endTimeNanos": "1606641900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641960000000000",
+            "endTimeNanos": "1606641960000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642020000000000",
+            "endTimeNanos": "1606642020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641120000000000",
+            "endTimeNanos": "1606641120000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641180000000000",
+            "endTimeNanos": "1606641180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641240000000000",
+            "endTimeNanos": "1606641240000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 93,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641300000000000",
+            "endTimeNanos": "1606641300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641360000000000",
+            "endTimeNanos": "1606641360000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641420000000000",
+            "endTimeNanos": "1606641420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641480000000000",
+            "endTimeNanos": "1606641480000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 109,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641540000000000",
+            "endTimeNanos": "1606641540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 86,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640640000000000",
+            "endTimeNanos": "1606640640000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640700000000000",
+            "endTimeNanos": "1606640700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640760000000000",
+            "endTimeNanos": "1606640760000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640820000000000",
+            "endTimeNanos": "1606640820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640880000000000",
+            "endTimeNanos": "1606640880000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 88,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640940000000000",
+            "endTimeNanos": "1606640940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641000000000000",
+            "endTimeNanos": "1606641000000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606641060000000000",
+            "endTimeNanos": "1606641060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644000000000000",
+            "endTimeNanos": "1606644000000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644060000000000",
+            "endTimeNanos": "1606644060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644120000000000",
+            "endTimeNanos": "1606644120000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644180000000000",
+            "endTimeNanos": "1606644180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644240000000000",
+            "endTimeNanos": "1606644240000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644300000000000",
+            "endTimeNanos": "1606644300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644360000000000",
+            "endTimeNanos": "1606644360000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644420000000000",
+            "endTimeNanos": "1606644420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643520000000000",
+            "endTimeNanos": "1606643520000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643580000000000",
+            "endTimeNanos": "1606643580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643640000000000",
+            "endTimeNanos": "1606643640000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643700000000000",
+            "endTimeNanos": "1606643700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643760000000000",
+            "endTimeNanos": "1606643760000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643820000000000",
+            "endTimeNanos": "1606643820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643880000000000",
+            "endTimeNanos": "1606643880000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643940000000000",
+            "endTimeNanos": "1606643940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643040000000000",
+            "endTimeNanos": "1606643040000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 88,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643100000000000",
+            "endTimeNanos": "1606643100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643160000000000",
+            "endTimeNanos": "1606643160000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643220000000000",
+            "endTimeNanos": "1606643220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643280000000000",
+            "endTimeNanos": "1606643280000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643340000000000",
+            "endTimeNanos": "1606643340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643400000000000",
+            "endTimeNanos": "1606643400000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606643460000000000",
+            "endTimeNanos": "1606643460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642560000000000",
+            "endTimeNanos": "1606642560000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642620000000000",
+            "endTimeNanos": "1606642620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642680000000000",
+            "endTimeNanos": "1606642680000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642740000000000",
+            "endTimeNanos": "1606642740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642800000000000",
+            "endTimeNanos": "1606642800000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642860000000000",
+            "endTimeNanos": "1606642860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642920000000000",
+            "endTimeNanos": "1606642920000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606642980000000000",
+            "endTimeNanos": "1606642980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645920000000000",
+            "endTimeNanos": "1606645920000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645980000000000",
+            "endTimeNanos": "1606645980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646040000000000",
+            "endTimeNanos": "1606646040000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646100000000000",
+            "endTimeNanos": "1606646100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646160000000000",
+            "endTimeNanos": "1606646160000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646220000000000",
+            "endTimeNanos": "1606646220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646280000000000",
+            "endTimeNanos": "1606646280000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646340000000000",
+            "endTimeNanos": "1606646340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645440000000000",
+            "endTimeNanos": "1606645440000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645500000000000",
+            "endTimeNanos": "1606645500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 85,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645560000000000",
+            "endTimeNanos": "1606645560000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645620000000000",
+            "endTimeNanos": "1606645620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645680000000000",
+            "endTimeNanos": "1606645680000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645740000000000",
+            "endTimeNanos": "1606645740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645800000000000",
+            "endTimeNanos": "1606645800000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645860000000000",
+            "endTimeNanos": "1606645860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644960000000000",
+            "endTimeNanos": "1606644960000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645020000000000",
+            "endTimeNanos": "1606645020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645080000000000",
+            "endTimeNanos": "1606645080000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645140000000000",
+            "endTimeNanos": "1606645140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645200000000000",
+            "endTimeNanos": "1606645200000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 85,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645260000000000",
+            "endTimeNanos": "1606645260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 86,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645320000000000",
+            "endTimeNanos": "1606645320000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606645380000000000",
+            "endTimeNanos": "1606645380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644480000000000",
+            "endTimeNanos": "1606644480000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644540000000000",
+            "endTimeNanos": "1606644540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644600000000000",
+            "endTimeNanos": "1606644600000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644660000000000",
+            "endTimeNanos": "1606644660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644720000000000",
+            "endTimeNanos": "1606644720000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644780000000000",
+            "endTimeNanos": "1606644780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644840000000000",
+            "endTimeNanos": "1606644840000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606644900000000000",
+            "endTimeNanos": "1606644900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 72,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647840000000000",
+            "endTimeNanos": "1606647840000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647900000000000",
+            "endTimeNanos": "1606647900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647960000000000",
+            "endTimeNanos": "1606647960000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648020000000000",
+            "endTimeNanos": "1606648020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 85,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648080000000000",
+            "endTimeNanos": "1606648080000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648140000000000",
+            "endTimeNanos": "1606648140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648200000000000",
+            "endTimeNanos": "1606648200000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606648260000000000",
+            "endTimeNanos": "1606648260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647360000000000",
+            "endTimeNanos": "1606647360000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647420000000000",
+            "endTimeNanos": "1606647420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647480000000000",
+            "endTimeNanos": "1606647480000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647540000000000",
+            "endTimeNanos": "1606647540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647600000000000",
+            "endTimeNanos": "1606647600000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647660000000000",
+            "endTimeNanos": "1606647660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647720000000000",
+            "endTimeNanos": "1606647720000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647780000000000",
+            "endTimeNanos": "1606647780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646880000000000",
+            "endTimeNanos": "1606646880000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646940000000000",
+            "endTimeNanos": "1606646940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647000000000000",
+            "endTimeNanos": "1606647000000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647060000000000",
+            "endTimeNanos": "1606647060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 85,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647120000000000",
+            "endTimeNanos": "1606647120000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 85,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647180000000000",
+            "endTimeNanos": "1606647180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647240000000000",
+            "endTimeNanos": "1606647240000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 99,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606647300000000000",
+            "endTimeNanos": "1606647300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646400000000000",
+            "endTimeNanos": "1606646400000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646460000000000",
+            "endTimeNanos": "1606646460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646520000000000",
+            "endTimeNanos": "1606646520000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646580000000000",
+            "endTimeNanos": "1606646580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646640000000000",
+            "endTimeNanos": "1606646640000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646700000000000",
+            "endTimeNanos": "1606646700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646760000000000",
+            "endTimeNanos": "1606646760000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606646820000000000",
+            "endTimeNanos": "1606646820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634400000000000",
+            "endTimeNanos": "1606634400000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634460000000000",
+            "endTimeNanos": "1606634460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634520000000000",
+            "endTimeNanos": "1606634520000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 94,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634580000000000",
+            "endTimeNanos": "1606634580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634640000000000",
+            "endTimeNanos": "1606634640000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634700000000000",
+            "endTimeNanos": "1606634700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634760000000000",
+            "endTimeNanos": "1606634760000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634820000000000",
+            "endTimeNanos": "1606634820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633920000000000",
+            "endTimeNanos": "1606633920000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633980000000000",
+            "endTimeNanos": "1606633980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634040000000000",
+            "endTimeNanos": "1606634040000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634100000000000",
+            "endTimeNanos": "1606634100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634160000000000",
+            "endTimeNanos": "1606634160000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634220000000000",
+            "endTimeNanos": "1606634220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634280000000000",
+            "endTimeNanos": "1606634280000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634340000000000",
+            "endTimeNanos": "1606634340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633440000000000",
+            "endTimeNanos": "1606633440000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633500000000000",
+            "endTimeNanos": "1606633500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633560000000000",
+            "endTimeNanos": "1606633560000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633620000000000",
+            "endTimeNanos": "1606633620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633680000000000",
+            "endTimeNanos": "1606633680000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633740000000000",
+            "endTimeNanos": "1606633740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 92,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633800000000000",
+            "endTimeNanos": "1606633800000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633860000000000",
+            "endTimeNanos": "1606633860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606632960000000000",
+            "endTimeNanos": "1606632960000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633020000000000",
+            "endTimeNanos": "1606633020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633080000000000",
+            "endTimeNanos": "1606633080000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633140000000000",
+            "endTimeNanos": "1606633140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633200000000000",
+            "endTimeNanos": "1606633200000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 87,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633260000000000",
+            "endTimeNanos": "1606633260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 92,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633320000000000",
+            "endTimeNanos": "1606633320000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 86,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606633380000000000",
+            "endTimeNanos": "1606633380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 86,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636320000000000",
+            "endTimeNanos": "1606636320000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 92,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636380000000000",
+            "endTimeNanos": "1606636380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636440000000000",
+            "endTimeNanos": "1606636440000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636500000000000",
+            "endTimeNanos": "1606636500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636560000000000",
+            "endTimeNanos": "1606636560000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636620000000000",
+            "endTimeNanos": "1606636620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636680000000000",
+            "endTimeNanos": "1606636680000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636740000000000",
+            "endTimeNanos": "1606636740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635840000000000",
+            "endTimeNanos": "1606635840000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 88,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635900000000000",
+            "endTimeNanos": "1606635900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 86,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635960000000000",
+            "endTimeNanos": "1606635960000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 86,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636020000000000",
+            "endTimeNanos": "1606636020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 85,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636080000000000",
+            "endTimeNanos": "1606636080000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636140000000000",
+            "endTimeNanos": "1606636140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636200000000000",
+            "endTimeNanos": "1606636200000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 93,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636260000000000",
+            "endTimeNanos": "1606636260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 88,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635360000000000",
+            "endTimeNanos": "1606635360000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 92,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635420000000000",
+            "endTimeNanos": "1606635420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 94,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635480000000000",
+            "endTimeNanos": "1606635480000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635540000000000",
+            "endTimeNanos": "1606635540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635600000000000",
+            "endTimeNanos": "1606635600000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635660000000000",
+            "endTimeNanos": "1606635660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635720000000000",
+            "endTimeNanos": "1606635720000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635780000000000",
+            "endTimeNanos": "1606635780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 93,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634880000000000",
+            "endTimeNanos": "1606634880000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606634940000000000",
+            "endTimeNanos": "1606634940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635000000000000",
+            "endTimeNanos": "1606635000000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635060000000000",
+            "endTimeNanos": "1606635060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635120000000000",
+            "endTimeNanos": "1606635120000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635180000000000",
+            "endTimeNanos": "1606635180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635240000000000",
+            "endTimeNanos": "1606635240000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606635300000000000",
+            "endTimeNanos": "1606635300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638240000000000",
+            "endTimeNanos": "1606638240000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638300000000000",
+            "endTimeNanos": "1606638300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638360000000000",
+            "endTimeNanos": "1606638360000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638420000000000",
+            "endTimeNanos": "1606638420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638480000000000",
+            "endTimeNanos": "1606638480000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638540000000000",
+            "endTimeNanos": "1606638540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638600000000000",
+            "endTimeNanos": "1606638600000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638660000000000",
+            "endTimeNanos": "1606638660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637760000000000",
+            "endTimeNanos": "1606637760000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637820000000000",
+            "endTimeNanos": "1606637820000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637880000000000",
+            "endTimeNanos": "1606637880000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637940000000000",
+            "endTimeNanos": "1606637940000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 71,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638000000000000",
+            "endTimeNanos": "1606638000000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638060000000000",
+            "endTimeNanos": "1606638060000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638120000000000",
+            "endTimeNanos": "1606638120000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638180000000000",
+            "endTimeNanos": "1606638180000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637280000000000",
+            "endTimeNanos": "1606637280000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637340000000000",
+            "endTimeNanos": "1606637340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637400000000000",
+            "endTimeNanos": "1606637400000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637460000000000",
+            "endTimeNanos": "1606637460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637520000000000",
+            "endTimeNanos": "1606637520000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637580000000000",
+            "endTimeNanos": "1606637580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 74,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637640000000000",
+            "endTimeNanos": "1606637640000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637700000000000",
+            "endTimeNanos": "1606637700000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636800000000000",
+            "endTimeNanos": "1606636800000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 93,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636860000000000",
+            "endTimeNanos": "1606636860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636920000000000",
+            "endTimeNanos": "1606636920000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606636980000000000",
+            "endTimeNanos": "1606636980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637040000000000",
+            "endTimeNanos": "1606637040000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637100000000000",
+            "endTimeNanos": "1606637100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637160000000000",
+            "endTimeNanos": "1606637160000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606637220000000000",
+            "endTimeNanos": "1606637220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640160000000000",
+            "endTimeNanos": "1606640160000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640220000000000",
+            "endTimeNanos": "1606640220000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640280000000000",
+            "endTimeNanos": "1606640280000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 91,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640340000000000",
+            "endTimeNanos": "1606640340000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 93,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640400000000000",
+            "endTimeNanos": "1606640400000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 87,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640460000000000",
+            "endTimeNanos": "1606640460000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640520000000000",
+            "endTimeNanos": "1606640520000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640580000000000",
+            "endTimeNanos": "1606640580000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 84,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639680000000000",
+            "endTimeNanos": "1606639680000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639740000000000",
+            "endTimeNanos": "1606639740000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 83,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639800000000000",
+            "endTimeNanos": "1606639800000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639860000000000",
+            "endTimeNanos": "1606639860000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 100,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639920000000000",
+            "endTimeNanos": "1606639920000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639980000000000",
+            "endTimeNanos": "1606639980000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 92,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640040000000000",
+            "endTimeNanos": "1606640040000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 82,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606640100000000000",
+            "endTimeNanos": "1606640100000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639200000000000",
+            "endTimeNanos": "1606639200000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639260000000000",
+            "endTimeNanos": "1606639260000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639320000000000",
+            "endTimeNanos": "1606639320000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639380000000000",
+            "endTimeNanos": "1606639380000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639440000000000",
+            "endTimeNanos": "1606639440000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 88,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639500000000000",
+            "endTimeNanos": "1606639500000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639560000000000",
+            "endTimeNanos": "1606639560000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639620000000000",
+            "endTimeNanos": "1606639620000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638720000000000",
+            "endTimeNanos": "1606638720000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638780000000000",
+            "endTimeNanos": "1606638780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 80,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638840000000000",
+            "endTimeNanos": "1606638840000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 81,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638900000000000",
+            "endTimeNanos": "1606638900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606638960000000000",
+            "endTimeNanos": "1606638960000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639020000000000",
+            "endTimeNanos": "1606639020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639080000000000",
+            "endTimeNanos": "1606639080000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606639140000000000",
+            "endTimeNanos": "1606639140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 93,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626720000000000",
+            "endTimeNanos": "1606626720000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 66,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626780000000000",
+            "endTimeNanos": "1606626780000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 87,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626840000000000",
+            "endTimeNanos": "1606626840000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626900000000000",
+            "endTimeNanos": "1606626900000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626960000000000",
+            "endTimeNanos": "1606626960000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 68,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606627020000000000",
+            "endTimeNanos": "1606627020000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 78,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606627080000000000",
+            "endTimeNanos": "1606627080000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 90,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606627140000000000",
+            "endTimeNanos": "1606627140000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626240000000000",
+            "endTimeNanos": "1606626240000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 75,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626300000000000",
+            "endTimeNanos": "1606626300000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626360000000000",
+            "endTimeNanos": "1606626360000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 92,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626420000000000",
+            "endTimeNanos": "1606626420000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 79,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626480000000000",
+            "endTimeNanos": "1606626480000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 77,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626540000000000",
+            "endTimeNanos": "1606626540000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 76,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626600000000000",
+            "endTimeNanos": "1606626600000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 89,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606626660000000000",
+            "endTimeNanos": "1606626660000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 73,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        },
+        {
+            "startTimeNanos": "1606625760000000000",
+            "endTimeNanos": "1606625760000000000",
+            "dataTypeName": "com.google.heart_rate.bpm",
+            "value": [
+                {
+                    "fpVal": 95,
+                    "mapVal": []
+                }
+            ],
+            "modifiedTimeMillis": "1606686697411"
+        }
+    ],
+    "deletedDataPoint": [],
+    "nextPageToken": "xCMPP9a/hLhoXWG1SaG1vXzVqU1Z4dU1MVnRDRmpsbUE=",
+    "dataSourceId": "raw:com.google.heart_rate.bpm:com.xiaomi.hm.health:"
+}
