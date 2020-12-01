@@ -11,7 +11,7 @@ module.exports = {
 
         let timestamp = moment(data[0].T);
 
-        let format = ' YYYY-MM-DD hh:mma (z)'; // [[]Z[]]
+        let format = ' `YYYY-MM-DD hh:mma (z)`'; // [[]Z[]]
         let msg = `Last Seen Alive:
   ${ timestamp.tz('Europe/Lisbon').format(format) }
   ${ timestamp.tz('America/New_York').format(format) }
@@ -19,7 +19,7 @@ module.exports = {
   ${ timestamp.tz('Israel').format(format) }
   ${ timestamp.tz('Australia/Sydney').format(format) }
 
-:heartbeat: ${data[0].f} bpm`;
+:heartbeat: **${data[0].f}** _bpm_`;
 
         //console.log(msg);
 
