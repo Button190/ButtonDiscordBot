@@ -55,8 +55,8 @@
             // count is number of times loop runs to generate random dataPoints.
             
             const params = new URLSearchParams(window.location.search);
-            //let n_avg = 100 || params.get('n');
-            let n_avg = params.get('n');
+
+            let n_avg = params.get('n') || 1;
             for (var j = n_avg-1; j < data.length; j++) {
               
               let bpm_avg = 0;
@@ -64,7 +64,7 @@
               for (let i = 0; i < n_avg; i++) {
                 bpm_avg += data[j-i].f; //console.log(data[i].f);
               }
-
+              
               bpm_avg = Math.round(bpm_avg / n_avg);
 
               dps.push({
