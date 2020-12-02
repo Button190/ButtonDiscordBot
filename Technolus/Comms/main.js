@@ -190,7 +190,7 @@ const path = require('path');
       // Successful authentication, get data.
       await passportAutentication(userCreds);
       //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
-      res.send( await getHeartRate(req.query.limit) );
+      res.send( await getHeartRate(req.query.window, req.query.points) );
     }
   });
   
@@ -333,10 +333,11 @@ const path = require('path');
 
 
   //dataSourceId: 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
-  async function getHeartRate(limit) {//(client)
+  async function getHeartRate(deltaHours, points) {//(client)
     // retrieve user profile
     
-    let deltaMinutes = 24*60;
+    deltaHours = deltaHours || 4;
+    let deltaMinutes = deltaHours*60;
     let latestNanoSecond = (new Date()).getTime()*1000000;
     let earliestNanoSecond = (new Date()).getTime()*1000000 - deltaMinutes*60*1000000000;
     
@@ -348,7 +349,7 @@ const path = require('path');
       //'dataSourceId': 'derived:com.google.heart_minutes:com.google.android.gms:merge_heart_minutes',
       //'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate',
       'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
-      'limit': limit||'20',
+      'limit': points || 99999,
     });
 
     datapoints = [];
@@ -381,7 +382,7 @@ const path = require('path');
       'userId': 'me',
       'dataSourceId': 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
       'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
-      //'limit': '10',
+      //'limit': 99999,
     });
 
     datapoints = [];

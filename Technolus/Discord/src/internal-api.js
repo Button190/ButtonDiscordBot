@@ -4,14 +4,15 @@ var moment = require('moment-timezone');
 
 module.exports = {
   getHeartRate: async (params) => {
-    const response = await fetch(`${process.env.URL.replace(/\/$/g, '')}/heartrate`);
+    // average heartbeat over last n_avg entries / last 5 minutes to make it smoother and more accurate.
+    let bpm_avg = 0;
+    let n_avg = 3;
+
+    const response = await fetch(`${process.env.URL.replace(/\/$/g, '')}/heartrate?points=${n_avg+1}`);
     const data = JSON.parse(await response.text());
 
     //console.log(data);
 
-    // average heartbeat over last n_avg entries / last 5 minutes to make it smoother and more accurate.
-    let bpm_avg = 0;
-    let n_avg = 3;
 
     if (data.length > n_avg) {
 

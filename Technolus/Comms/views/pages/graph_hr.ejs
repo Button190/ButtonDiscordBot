@@ -3,106 +3,119 @@
 <html>
 
 <head>
-  <title>Graphing</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <style>
-    body {
-      padding-top: 70px;
-      font-family: 'Roboto', sans-serif;
-      background-color: #101214;
-      color: #7A7C80;
-    }
-  </style>
-  <script>
-    
-    // chart from:
-    //https://canvasjs.com/javascript-charts/
+    <title>Graphing</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body {
+            padding-top: 70px;
+            font-family: 'Roboto', sans-serif;
+            background-color: #101214;
+            color: #7A7C80;
+        }
+        .footer-note {
+            padding-top: 0.9em;
+            font-size: 0.9em;
+            text-align:end;
+        }
+    </style>
+    <script>
 
-    //maybe replace with a range area chart? the area would be the difference between one point and the next(top range) and the previous(bottom range)
-    //https://canvasjs.com/javascript-charts/range-area-line-chart/
+        // chart from:
+        //https://canvasjs.com/javascript-charts/
 
-    // check charts from https://www.chartjs.org/ , they have better look/feel (but are they actuaslly better???)
-    
-    window.onload = function () {
+        //maybe replace with a range area chart? the area would be the difference between one point and the next(top range) and the previous(bottom range)
+        //https://canvasjs.com/javascript-charts/range-area-line-chart/
 
-      var dps = [];
-      var chart = new CanvasJS.Chart("chartContainer", {
-        exportEnabled: false,
-        title: {
-          text: ""
-        },
-        data: [{
-          type: "spline",
-          markerSize: 0,
-          dataPoints: dps
-        }]
-      });
+        // check charts from https://www.chartjs.org/ , they have better look/feel (but are they actuaslly better???)
 
-      var xVal = 0;
-      var yVal = 0;
-      var updateInterval = 4 * 60 * 1000;
-      var dataLength = 1000; // max number of dataPoints visible at any point
+        window.onload = function () {
 
-      var updateChart = function (count, data) {
+            //var dps = [];
+            var chart = new CanvasJS.Chart("chartContainer", {
+                exportEnabled: false,
+                title: {
+                    text: ""
+                },
+                data: [{
+                    type: "line",//"spline",
+                    markerSize: 0,
+                    dataPoints: [] //dps
+                }]
+            });
 
-        fetch('/heartrate?limit=500')
-          .then((resp) => resp.json())
-          .then(function (data) {
-            
-            //console.info('fetch()', data);
+            var xVal = 0;
+            var yVal = 0;
+            var updateInterval = 4 * 60 * 1000;
+            var dataLength = 10 // 1000; // max number of dataPoints visible at any point
 
-            // count is number of times loop runs to generate random dataPoints.
-            
-            const params = new URLSearchParams(window.location.search);
-            //let n_avg = 100 || params.get('n');
-            let n_avg = params.get('n');
-            for (var j = n_avg-1; j < data.length; j++) {
-              
-              let bpm_avg = 0;
+            var updateChart = function (count, data) {
+                const params = new URLSearchParams(window.location.search);
 
-              for (let i = 0; i < n_avg; i++) {
-                bpm_avg += data[j-i].f; //console.log(data[i].f);
-              }
 
-              bpm_avg = Math.round(bpm_avg / n_avg);
+                let n_avg = parseInt(params.get('average')) || 1;
+                let rollingWindow = parseInt(params.get('window')) || 24;
+                let limit = parseInt(params.get('points')) || 99999;
+                if (limit>99999){limit=99999}
 
-              dps.push({
-                //x:  new Date(data[j].T) ,//xVal,
-                x:  new Date((new Date(data[j].T)).getTime() + (n_avg/2)*60*1000) ,//xVal,
-                y: bpm_avg
-              });
+                fetch(`/heartrate?window=${ rollingWindow }&points=${limit?(limit + n_avg - 1):limit}`) //
+                    .then((resp) => resp.json())
+                    .then(function (data) {
+                        let dps = [];
 
-              xVal++;
+                        //console.info('fetch()', data);
+
+                        // count is number of times loop runs to generate random dataPoints.
+                        for (var j = n_avg - 1; j < data.length; j++) {
+
+                            let bpm_avg = 0;
+
+                            for (let i = 0; i < n_avg; i++) {
+                                bpm_avg += data[j - i].f; //console.log(data[i].f);
+                            }
+
+                            bpm_avg = Math.round(bpm_avg / n_avg);
+
+                            dps.push({
+                                //x:  new Date(data[j].T) ,//xVal,
+                                x: new Date((new Date(data[j].T)).getTime() + (n_avg / 2) * 60 * 1000),//xVal,
+                                y: bpm_avg
+                            });
+
+                            xVal++;
+
+                        }
+                        if (dps.length > limit ) {//dataLength
+                            dps.shift();
+                        }
+                        chart.options.data[0].dataPoints = dps;
+                        chart.render();
+                        document.querySelector('.canvasjs-chart-credit').style.display = 'none';
+                    });
+
 
             }
-            if (dps.length > dataLength) {
-              dps.shift();
-            }
-            chart.render();
-            document.querySelector('.canvasjs-chart-credit').style.display = 'none';
-          });
 
+            updateChart(dataLength);
+            setInterval(function () { updateChart() }, updateInterval);
 
-      }
-
-      updateChart(dataLength);
-      setInterval(function () { updateChart() }, updateInterval);
-      
-    }
-  </script>
+        }
+    </script>
 </head>
 
 <body>
 
-  <div class="container">
-    <div class="jumbotron text-center text-primary">
-      <h1><span class="fa fa-heart"></span> Plotting Heart Rate <span class="fa fa-heart"></span></h1>
-      <div id="chartContainer" style="height: 370px; width:100%;"></div>
+    <div class="container">
+        <div class="jumbotron text-center text-primary">
+            <h1><span class="fa fa-heart"></span> Plotting Heart Rate <span class="fa fa-heart"></span></h1>
+            <div id="chartContainer" style="height: 370px; width:100%;"></div>
+            <p class="footer-note">
+                *Data from google fit api is not realtime - delay can be up to 1 hour
+            </p>
 
+        </div>
     </div>
-  </div>
-  <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
 </body>
 
 </html>
