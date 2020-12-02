@@ -14,7 +14,7 @@ https://discord.com/oauth2/authorize?client_id=778437294058111016&scope=bot&perm
 require('dotenv').config();
 
 
-const {Client} = require('discord.js');
+const Discord = require('discord.js');
 const fs = require('fs');
 const path = require('path');
 
@@ -28,7 +28,6 @@ const Settings = require('./src/fetchSettings.js');
 const Custom = require('./src/custom.js');
 
 
-
 var botInitialized;
 
 
@@ -36,12 +35,13 @@ const token = process.env.DISCORD_BOT_TOKEN;
 
 (async () => {
     if (!botInitialized ) {
-
+        
         botInitialized = true;
-
+        
         
         //const token = process.env.DISCORD_BOT_TOKEN;
-        const client = new Client();
+        //const client = new Discord.client();
+        const client = new Discord.Client();
 
         client.on('ready', () => {
             console.log('This bot is online!');
@@ -154,18 +154,29 @@ const token = process.env.DISCORD_BOT_TOKEN;
             } else if (/^;alive\?/i.test(msg.content) ) { // && msg.author.id === '736086531491627080' // anything else preceeded by a semicolon and an equal sign
                 msg.channel.send( await require('./src/internal-api').getHeartRate() );
 
-            } else if (/^;;;embed/i.test(msg.content) ) { // && msg.author.id === '736086531491627080' // anything else preceeded by a semicolon and an equal sign
-                msg.channel.send( await require('./src/internal-api').getHeartRate() );
-                const embed = new MessageEmbed()
-                // Set the title of the field
-                .setTitle('A slick little embed')
-                // Set the color of the embed
-                .setColor(0xff0000)
-                // Set the main content of the embed
-                .setDescription('Hello, this is a slick embed!');
-              // Send the embed to the same channel as the message
-              message.channel.send(embed);
+            } else if (/^;embed/i.test(msg.content) ) { // && msg.author.id === '736086531491627080' // anything else preceeded by a semicolon and an equal sign
+                
+                // inside a command, event listener, etc.
+                const embed = new Discord.MessageEmbed()
+                    .setColor('#0099ff')
+                    .setTitle('Here is an embed for you!')
+                    .setURL('https://discord.js.org/')
+                    .setAuthor('Technolus', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+                    .setDescription('We are Technolus')
+                    .setThumbnail('https://i.imgur.com/wSTFkRM.png')
+                    .addFields(
+                        { name: 'Regular field title', value: 'Some value here' },
+                        { name: '\u200B', value: '\u200B' },
+                        { name: 'Inline field title', value: 'Some value here', inline: true },
+                        { name: 'Inline field title', value: 'Some value here', inline: true },
+                    )
+                    .addField('Inline field title', 'Some value here', true)
+                    .setImage('https://i.imgur.com/wSTFkRM.png')
+                    .setTimestamp()
+                    .setFooter('Some footer text here', 'https://i.imgur.com/wSTFkRM.png');
 
+                //await require('./src/internal-api').getHeartRate()
+                msg.channel.send(embed);
                 
             } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
                 //;rem [number] [years/months/days/hours/minutes/seconds])
