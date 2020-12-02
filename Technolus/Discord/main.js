@@ -110,37 +110,63 @@ const token = process.env.DISCORD_BOT_TOKEN;
                 const torSearchTerm = /^;tor\s+(.+)/.exec(msg.content)[1];
                 const torResult = await Torrents.getTorrent( torSearchTerm );
                 //console.log(torResult);
+                let ressentMessage;
                 if (torResult === []){
-                    msg.channel.send(`No results were found for: ${torSearchTerm}`);
+                    ressentMessage = msg.channel.send(`No results were found for: ${torSearchTerm}`);
                 }else{
-                    msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}`);
+                    ressentMessage = msg.channel.send( `Title: **_${torResult[0].title}_**\nTorrent:\n${torResult[0].magnet}`);
                 }
+                sentMessage.then(sentMessage => {
+                    sentMessage.delete({ timeout: 2*60*1000 });
+                });
 
             } else if (/^;tor_\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
                 
                 const torSearchTerm = /^;tor_\s+(.+)/.exec(msg.content)[1];
                 const torResult = await Torrents.getTorrent( torSearchTerm );
                 //console.log(torResult);
+                let ressentMessage;
                 if (torResult === []){
-                    msg.channel.send(`No results were found for: ${torSearchTerm}`);
+                    ressentMessage = msg.channel.send(`No results were found for: ${torSearchTerm}`);
                 }else{
-                    msg.channel.send( `Title: **_${torResult[0].title}_**\nDownload:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m%20${torResult[0].magnet}`);
+                    sentMessage = msg.channel.send( `Title: **_${torResult[0].title}_**\nDownload:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m%20${torResult[0].magnet}`);
                 }
+                sentMessage.then(sentMessage => {
+                    sentMessage.delete({ timeout: 30*1000 });
+                });
 
             } else if (/^;ani\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
                 
                 const torSearchTerm = /^;ani\s+(.+)/.exec(msg.content)[1];
                 const torResult = await Torrents.getAnimeTorrent( torSearchTerm );
                 //console.log(torResult);
+                
+                let ressentMessage;
                 if (torResult === []){
-                    msg.channel.send(`No results were found for: ${torSearchTerm}`);
+                    sentMessage = msg.channel.send(`No results were found for: ${torSearchTerm}`);
                 }else{
-                    msg.channel.send( `Title: **_${torResult[0].title}_**\nDownload:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m%20${torResult[0].magnet}`);
+                    sentMessage = msg.channel.send( `Title: **_${torResult[0].title}_**\nDownload:\nhttp://192.168.1.69:3333/?route=shell&data=python3%20torrent%2Ftorrent_add.py%20-p%208888%20-a%20localhost%20-s%20%22%2Fhome%2Fpi%2FDesktop%2FNicas%2F%2B%2BSeries%2F%22%20-m%20${torResult[0].magnet}`);
                 }
+                sentMessage.then(sentMessage => {
+                    sentMessage.delete({ timeout: 30*1000 });
+                });
 
             } else if (/^;alive\?/i.test(msg.content) ) { // && msg.author.id === '736086531491627080' // anything else preceeded by a semicolon and an equal sign
                 msg.channel.send( await require('./src/internal-api').getHeartRate() );
-            
+
+            } else if (/^;;;embed/i.test(msg.content) ) { // && msg.author.id === '736086531491627080' // anything else preceeded by a semicolon and an equal sign
+                msg.channel.send( await require('./src/internal-api').getHeartRate() );
+                const embed = new MessageEmbed()
+                // Set the title of the field
+                .setTitle('A slick little embed')
+                // Set the color of the embed
+                .setColor(0xff0000)
+                // Set the main content of the embed
+                .setDescription('Hello, this is a slick embed!');
+              // Send the embed to the same channel as the message
+              message.channel.send(embed);
+
+                
             } else if (/^;(remind|reminder|rem|remind me)\s*\d+\s*\S+/.test(msg.content)) { // anything else preceeded by a semicolon and rem
                 //;rem [number] [years/months/days/hours/minutes/seconds])
                 let msgContent = "" ;
