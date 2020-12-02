@@ -179,7 +179,7 @@ const path = require('path');
     if (!userProfile) {
       res.redirect('/login')
     }else{
-      res.cookie('session', '1', {maxAge: 360000}).render('pages/success', {user: userProfile, creds: userCreds});  // {expire: 360000 + Date.now()}); 
+      res.cookie('session', '1', {maxAge: 360000}).render('pages/success', {user: userProfile});//, creds: userCreds});  // {expire: 360000 + Date.now()}); 
     }
   });
   
@@ -194,6 +194,18 @@ const path = require('path');
     }
   });
   
+  
+  app.get('/steps', async (req, res) => {
+    if (!userProfile) {
+      res.redirect('/login')
+    }else{
+      // Successful authentication, get data.
+      await passportAutentication(userCreds);
+      //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
+      res.send( await getStepCount(req.query.window, req.query.points) );
+    }
+  });
+
   app.get('/graph_hr', async (req, res) => {
     if (!userProfile) {
       res.redirect('/login')
@@ -201,7 +213,7 @@ const path = require('path');
       // Successful authentication, get data.
       await passportAutentication(userCreds);
       //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
-      res.render('pages/graph_hr');
+      res.render('pages/graph_hr', {user: userProfile });
     }
   });
 
@@ -356,7 +368,7 @@ const path = require('path');
     res.data.point.forEach(dp => {
       datapoints.push({
         'T': new Date(dp.startTimeNanos/1000000),
-        't': new Date(dp.startTimeNanos/1000000).toLocaleString(),
+        //'t': new Date(dp.startTimeNanos/1000000).toLocaleString(),
         'f': dp.value[0].fpVal
       });
     });
@@ -370,37 +382,40 @@ const path = require('path');
     //return res.data;
 
   }
-  async function getStepCount() {//(client)
-    // retrieve user profile
-    
-    let deltaMinutes = 2*60;
-    let latestNanoSecond = (new Date()).getTime()*1000000;
-    let earliestNanoSecond = (new Date()).getTime()*1000000 - deltaMinutes*60*1000000000;
-    
-    const fitness = google.fitness('v1');
-    const res = await fitness.users.dataSources.datasets.get({
+  async function getStepCount(deltaHours, points) {
+      // retrieve user profile
+      
+      deltaHours = deltaHours || 4;
+      let deltaMinutes = deltaHours*60;
+      let latestNanoSecond = (new Date()).getTime()*1000000;
+      let earliestNanoSecond = (new Date()).getTime()*1000000 - deltaMinutes*60*1000000000;
+      
+      const fitness = google.fitness('v1');
+      const res = await fitness.users.dataSources.datasets.get({
       'userId': 'me',
-      'dataSourceId': 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
+      dataSourceId: 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
+      dataSourceId: 'derived:com.google.step_count.delta:com.google.android.gms:estimated_steps',
       'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
-      //'limit': 99999,
+      'limit': points || 99999,
     });
 
     datapoints = [];
     res.data.point.forEach(dp => {
       datapoints.push({
-        // 'T': new Date(dp.startTimeNanos/1000000),
-        // 't': new Date(dp.startTimeNanos/1000000).toLocaleString(),
+        'T': new Date(dp.startTimeNanos/1000000),
+        'T2': new Date(dp.endTimeNanos/1000000),
+        //'t': new Date(dp.startTimeNanos/1000000).toLocaleString(),
         'f': dp.value[0].intVal
       });
     });
 
-    // datapoints.sort(function(a,b){
-    //   //return new Date(b.t) - new Date(a.t);
-    //   return b.T - a.T;
-    // });
+    datapoints.sort(function(a,b){
+      //return new Date(b.t) - new Date(a.t);
+      return b.T - a.T;
+    });
 
-    //return datapoints;
-    return res.data;
+    return datapoints;
+    //return res.data;
 
   }
   //////////////////////////////////////////////////////////////////////////////////////
