@@ -41,24 +41,12 @@
                 title: {
                     text: ""
                 },
-                toolTip: {
-                    shared: true,
-                    content: "{x}: {y}",//": {y}",  {
-                    contentFormatter: function (e) {
-                        var content = " ";
-                        const lang = navigator.language || navigator.languages[0];
-                        for (var i = 0; i < e.entries.length; i++) {
-                            content += `${e.entries[i].dataPoint.x.toLocaleString("pt-PT").replace(/, /, '<br>')} -> <strong style="font-color:red">${parseInt(e.entries[i].dataPoint.y)} (${e.axisY.title})</strong>`;
-                        }
-                        return content;
-                    },
 
-                },
                 axisX: {
                     gridColor: "Silver",
-                    valueFormatString: "1d HH:mm",
+                    valueFormatString: "Dd HH:mm",
                     gridThickness: 2,
-                    interval:2, 
+                    interval: 2,
                 },
                 axisY: {
                     title: "BPM",
@@ -82,7 +70,33 @@
                     //prefix: "$",
                     //suffix: "k"
                 },
-                data: []
+                data: [],
+                toolTip: {
+                    yAlign: 'bottom',
+                    xAlign: 'center',
+                    shared: true,
+                    content: "{x}: {y}",//": {y}",  {
+                    contentFormatter: function (e) {
+                        var content = " ";
+                        const lang = navigator.language || navigator.languages[0];
+                        //for (var i = 0; i < e.entries.length; i++) {
+                        i = 0;
+                        content += `
+                        <span style="text-align:right;">
+                            ${e.entries[i].dataPoint.x.toISOString().replace(/T/, ' ').replace(/\.000Z$/, ' ')}
+                            <!-- $ {e.entries[i].dataPoint.x.toLocaleString("pt-PT").replace(/, /, ' ')} -->
+                        </span>
+                            <br>    
+                            <br>    
+                            <strong style="text-align:right; position:absolute;right: 0.5em;bottom: .3em;">
+                                ${(e.entries[0].dataSeries.axisYType=='primary')?'<span style="color:#FF0000;">':'<span style="color:#5DADE2">'}${e.entries[0].dataPoint.y}${(e.entries[0].dataSeries.axisYType=='primary')?'</span> bpms':'</span> steps'}
+                            </strong>
+                            `;
+                        //}
+                        return content;
+                    },
+
+                },
             });
 
             const colors = {
@@ -145,13 +159,13 @@
                         if (dps.length > limit) {//dataLength
                             dps.shift();
                         }
-                        
-                        
+
+
                         chart.options.data.push({
                             type: "line",//"spline",,
                             color: colors[0],
                             markerSize: 0,
-                            dataPoints:  dps,
+                            dataPoints: dps,
                             //showInLegend: true,
                             axisYIndex: 1,
                         });
@@ -173,7 +187,7 @@
                             dps.push({
                                 //x:  new Date(data[j].T) ,//xVal,
                                 x: new Date((new Date(data[j].T)).getTime()),//xVal,
-                                y: data[j-1].f,
+                                y: data[j - 1].f,
                             });
 
 
@@ -194,14 +208,14 @@
                             type: "area",//"line",
                             color: colors[1],
                             markerSize: 5,
-                            dataPoints:  dps,
+                            dataPoints: dps,
                             //showInLegend: true,
                             axisYIndex: 0,
                             axisYType: "secondary",
                         });
                         chart.render();
                         document.querySelector('.canvasjs-chart-credit').style.display = 'none';
-                        
+
                     });
 
             }

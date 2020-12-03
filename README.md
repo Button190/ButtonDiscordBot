@@ -2,9 +2,11 @@ Note: ping was averaging 133ms
 
 
 TODO:
+FIRST STEPS:
 
-
-3- websocket into the devices
+0-set up master user [next, authentication - discord!verify&google]
+0-websocket (into the devicesconnection) to my computer (=> then also via user authentication).
+0-custom procedures interpreter.
 
 1- discord verify, as soon as authentication can be done.
 2 - get and display data from api .get("/api").display()
