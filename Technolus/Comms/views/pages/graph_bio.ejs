@@ -83,7 +83,11 @@
                         i = 0;
                         content += `
                         <span style="text-align:right;">
-                            ${e.entries[i].dataPoint.x.toISOString().replace(/T/, ' ').replace(/\.000Z$/, ' ')}
+                            ${e.entries[i].dataPoint.x.toISOString().replace(/T/, ' ').replace(/\.\d{3}Z$/, ' ')}
+                            <!-- $ {e.entries[i].dataPoint.x.toLocaleString("pt-PT").replace(/, /, ' ')} -->
+                        </span>
+                        <span style="text-align:right;">
+                            [${ Math.round( (((new Date()).getTime()-e.entries[i].dataPoint.x.getTime()) / 1000 / 60 / 60)*10 )/10 }]
                             <!-- $ {e.entries[i].dataPoint.x.toLocaleString("pt-PT").replace(/, /, ' ')} -->
                         </span>
                             <br>    
