@@ -206,13 +206,21 @@ const path = require('path');
     }
   });
 
+  app.get('/graph_hr', async (req, res) => {
+    if (!userProfile) {
+      res.redirect('/login')
+    }else{
+      // Successful authentication, get data.
+      await passportAutentication(userCreds);
+      res.render('pages/graph_bio', {user: userProfile });
+    }
+  });
   app.get('/biometrics', async (req, res) => {
     if (!userProfile) {
       res.redirect('/login')
     }else{
       // Successful authentication, get data.
       await passportAutentication(userCreds);
-      //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
       res.render('pages/graph_bio', {user: userProfile });
     }
   });
