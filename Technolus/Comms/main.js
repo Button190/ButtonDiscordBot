@@ -194,7 +194,6 @@ const path = require('path');
     }
   });
   
-  
   app.get('/steps', async (req, res) => {
     if (!userProfile) {
       res.redirect('/login')
@@ -203,6 +202,28 @@ const path = require('path');
       await passportAutentication(userCreds);
       //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
       res.send( await getStepCount(req.query.window, req.query.points) );
+    }
+  });
+  
+  app.get('/sleep', async (req, res) => {
+    if (!userProfile) {
+      res.redirect('/login')
+    }else{
+      // Successful authentication, get data.
+      await passportAutentication(userCreds);
+      //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
+      res.send( await getSleep(req.query.window, req.query.points) );
+    }
+  });
+  
+  app.get('/biotest', async (req, res) => {
+    if (!userProfile) {
+      res.redirect('/login')
+    }else{
+      // Successful authentication, get data.
+      await passportAutentication(userCreds);
+      //passport.authenticate('google', { failureRedirect: '/error' }); //redirect to login instead '/login' }),
+      res.send( await getBioTest(req.query.window, req.query.points) );
     }
   });
 
@@ -222,6 +243,16 @@ const path = require('path');
       // Successful authentication, get data.
       await passportAutentication(userCreds);
       res.render('pages/graph_bio', {user: userProfile });
+    }
+  });
+
+  app.get('/biometrics2', async (req, res) => {
+    if (!userProfile) {
+      res.redirect('/login')
+    }else{
+      // Successful authentication, get data.
+      await passportAutentication(userCreds);
+      res.render('pages/graph_bio2', {user: userProfile });
     }
   });
 
@@ -351,8 +382,6 @@ const path = require('path');
     return oauth2Client;
   }
 
-
-  //dataSourceId: 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
   async function getHeartRate(deltaHours, points) {//(client)
     // retrieve user profile
     
@@ -364,10 +393,7 @@ const path = require('path');
     const fitness = google.fitness('v1');
     const res = await fitness.users.dataSources.datasets.get({
       'userId': 'me',
-      'dataSourceId': 'raw:com.google.heart_rate.bpm:com.xiaomi.hm.health:',
-      //'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm',
-      //'dataSourceId': 'derived:com.google.heart_minutes:com.google.android.gms:merge_heart_minutes',
-      //'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate',
+      'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm',
       'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
       'limit': points || 99999,
     });
@@ -401,13 +427,13 @@ const path = require('path');
       const fitness = google.fitness('v1');
       const res = await fitness.users.dataSources.datasets.get({
       'userId': 'me',
-      dataSourceId: 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
-      //dataSourceId: 'derived:com.google.step_count.delta:com.google.android.gms:estimated_steps',
+      dataSourceId: 'derived:com.google.step_count.delta:com.google.android.gms:estimated_steps',
+      //dataSourceId: 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
       'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
       'limit': points || 99999,
     });
 
-    datapoints = [];
+    let datapoints = [];
     res.data.point.forEach(dp => {
       datapoints.push({
         'T': new Date(dp.startTimeNanos/1000000),
@@ -426,6 +452,78 @@ const path = require('path');
     //return res.data;
 
   }
+  
+    async function getSleep(deltaHours, points) {//(client)
+      // retrieve user profile
+      
+      deltaHours = deltaHours || 48;
+      let deltaMinutes = deltaHours*60;
+      let latestNanoSecond = (new Date()).getTime()*1000000;
+      let earliestNanoSecond = (new Date()).getTime()*1000000 - deltaMinutes*60*1000000000;
+      
+      const fitness = google.fitness('v1');
+      const res = await fitness.users.dataSources.datasets.get({
+        'userId': 'me',
+        'dataSourceId': 'derived:com.google.sleep.segment:com.google.android.gms:merged',
+        'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
+        'limit': points || 99999,
+      });
+  
+      let datapoints = [];
+      res.data.point.forEach(dp => {
+        datapoints.push({
+          'T': new Date(dp.startTimeNanos/1000000),
+          'T2': new Date(dp.endTimeNanos/1000000),
+          'ts': new Date(dp.startTimeNanos/1000000).toLocaleString(),,
+          'te': new Date(dp.startTimeNanos/1000000).toLocaleString(),
+          'f': dp.value[0].intVal
+        });
+      });
+  
+      datapoints.sort(function(a,b){
+        //return new Date(b.t) - new Date(a.t);
+        return b.T - a.T;
+      });
+  
+      return datapoints;
+      //return res.data;
+  
+    }
+  
+    async function getBioTest(deltaHours, points) {//(client)
+      // retrieve user profile
+      
+      deltaHours = deltaHours || 4;
+      let deltaMinutes = deltaHours*60;
+      let latestNanoSecond = (new Date()).getTime()*1000000;
+      let earliestNanoSecond = (new Date()).getTime()*1000000 - deltaMinutes*60*1000000000;
+      
+      const fitness = google.fitness('v1');
+      const res = await fitness.users.dataSources.datasets.get({
+        'userId': 'me',
+        'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm',
+        'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
+        'limit': points || 99999,
+      });
+  
+      let datapoints = [];
+      res.data.point.forEach(dp => {
+        datapoints.push({
+          'T': new Date(dp.startTimeNanos/1000000),
+          //'t': new Date(dp.startTimeNanos/1000000).toLocaleString(),
+          'f': dp.value[0].fpVal
+        });
+      });
+  
+      datapoints.sort(function(a,b){
+        //return new Date(b.t) - new Date(a.t);
+        return b.T - a.T;
+      });
+  
+      //return datapoints;
+      return res.data;
+  
+    }
   //////////////////////////////////////////////////////////////////////////////////////
 
 
