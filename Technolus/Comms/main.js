@@ -474,8 +474,8 @@ const path = require('path');
         datapoints.push({
           'T': new Date(dp.startTimeNanos/1000000),
           'T2': new Date(dp.endTimeNanos/1000000),
-          'ts': new Date(dp.startTimeNanos/1000000).toLocaleString(),,
-          'te': new Date(dp.startTimeNanos/1000000).toLocaleString(),
+          // 'ts': new Date(dp.startTimeNanos/1000000).toLocaleString(),
+          // 'te': new Date(dp.startTimeNanos/1000000).toLocaleString(),
           'f': dp.value[0].intVal
         });
       });
