@@ -364,15 +364,15 @@ const path = require('path');
     const fitness = google.fitness('v1');
     const res = await fitness.users.dataSources.datasets.get({
       'userId': 'me',
-      //'dataSourceId': 'raw:com.google.heart_rate.bpm:com.xiaomi.hm.health:',
-      'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm',
+      'dataSourceId': 'raw:com.google.heart_rate.bpm:com.xiaomi.hm.health:',
+      //'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:merge_heart_rate_bpm',
       //'dataSourceId': 'derived:com.google.heart_minutes:com.google.android.gms:merge_heart_minutes',
       //'dataSourceId': 'derived:com.google.heart_rate.bpm:com.google.android.gms:resting_heart_rate',
       'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
       'limit': points || 99999,
     });
 
-    datapoints = [];
+    let datapoints = [];
     res.data.point.forEach(dp => {
       datapoints.push({
         'T': new Date(dp.startTimeNanos/1000000),
@@ -402,7 +402,7 @@ const path = require('path');
       const res = await fitness.users.dataSources.datasets.get({
       'userId': 'me',
       dataSourceId: 'raw:com.google.step_count.delta:com.xiaomi.hm.health:',
-      dataSourceId: 'derived:com.google.step_count.delta:com.google.android.gms:estimated_steps',
+      //dataSourceId: 'derived:com.google.step_count.delta:com.google.android.gms:estimated_steps',
       'datasetId': `${earliestNanoSecond}-${latestNanoSecond}`, //'1606619100000000000-1606812543784000000',
       'limit': points || 99999,
     });
