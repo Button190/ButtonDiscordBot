@@ -119,7 +119,7 @@
 
             var xVal = 0;
             var yVal = 0;
-            var updateInterval = 5 * 60 * 1000;
+            var updateInterval = 3 * 60 * 1000;
             var dataLength = 10 // 1000; // max number of dataPoints visible at any point
 
             var updateChart = function (count, data) {
@@ -347,6 +347,7 @@
                 if (document.visibilityState == "hidden") {
                     clearInterval(interval);
                 } else {
+                    updateChart(dataLength);
                     interval = setInterval(function () { updateChart() }, updateInterval);
                 }
             });
