@@ -119,7 +119,7 @@
 
             var xVal = 0;
             var yVal = 0;
-            var updateInterval = 4 * 60 * 1000;
+            var updateInterval = 5 * 60 * 1000;
             var dataLength = 10 // 1000; // max number of dataPoints visible at any point
 
             var updateChart = function (count, data) {
@@ -138,15 +138,13 @@
 
                         let dps = [];
 
-                        //console.info('fetch()', data);
-
                         // count is number of times loop runs to generate random dataPoints.
                         for (var j = n_avg - 1; j < data.length; j++) {
 
                             let bpm_avg = 0;
 
                             for (let i = 0; i < n_avg; i++) {
-                                bpm_avg += data[j - i].f; //console.log(data[i].f);
+                                bpm_avg += data[j - i].f; 
                             }
 
                             bpm_avg = Math.round(bpm_avg / n_avg);
@@ -306,13 +304,7 @@
     
                                 if (data[j+1]) { 
     
-                                    console.log(
-    
-                                        //( (new Date(dps[j+1].x)).getTime() - (new Date(dps[j].x)).getTime() >= 1*60*60*1000 )
-                                        ( (new Date(data[j].T)).getTime() - (new Date(data[j+1].T2)).getTime()  )
-                                        
-                                    );
-    
+                                    
                                     if (  
                                         ( (new Date(data[j].T)).getTime() - (new Date(data[j+1].T2)).getTime() >= 15*60*1000  )
                                         ||
@@ -347,8 +339,20 @@
 
             }
 
+            
+            let interval;
+            
+            // Handle page visibility change events
+            document.addEventListener("visibilitychange", ()=> {
+                if (document.visibilityState == "hidden") {
+                    clearInterval(interval);
+                } else {
+                    interval = setInterval(function () { updateChart() }, updateInterval);
+                }
+            });
+            
             updateChart(dataLength);
-            setInterval(function () { updateChart() }, updateInterval);
+            interval = setInterval(function () { updateChart() }, updateInterval);
 
         }
     </script>
