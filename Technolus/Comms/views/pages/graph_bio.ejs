@@ -163,6 +163,7 @@
                         }
 
 
+                        chart.options.data[0].dataPoints = [];
                         chart.options.data.push({
                             type: "line",//"spline",,
                             color: colors[0],
@@ -206,6 +207,7 @@
                             dps.shift();
                         }
 
+                        chart.options.data[0].dataPoints = [];
                         chart.options.data.push({
                             type: "area",//"line",
                             color: colors[1],
@@ -323,6 +325,7 @@
                             }
     
     
+                            chart.options.data[0].dataPoints = [];
                             chart.options.data.push({
                                 type: "area",//"line",
                                 color: colors[2],

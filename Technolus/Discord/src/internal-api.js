@@ -1,3 +1,4 @@
+// @ts-nocheck
 require('dotenv').config();
 const fetch = require('node-fetch');
 var moment = require('moment-timezone');
