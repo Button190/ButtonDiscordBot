@@ -123,6 +123,10 @@
             var dataLength = 10 // 1000; // max number of dataPoints visible at any point
 
             var updateChart = function (count, data) {
+
+                
+                chart.options.data = [];
+
                 const params = new URLSearchParams(window.location.search);
 
 
@@ -135,7 +139,6 @@
                 fetch(`/heartrate?window=${rollingWindow}&points=${limit ? (limit + n_avg - 1) : limit}`) //
                     .then((resp) => resp.json())
                     .then(function (data) {
-
                         let dps = [];
 
                         // count is number of times loop runs to generate random dataPoints.
@@ -163,7 +166,6 @@
                         }
 
 
-                        chart.options.data[0].dataPoints = [];
                         chart.options.data.push({
                             type: "line",//"spline",,
                             color: colors[0],
@@ -207,7 +209,6 @@
                             dps.shift();
                         }
 
-                        chart.options.data[0].dataPoints = [];
                         chart.options.data.push({
                             type: "area",//"line",
                             color: colors[1],
@@ -325,7 +326,6 @@
                             }
     
     
-                            chart.options.data[0].dataPoints = [];
                             chart.options.data.push({
                                 type: "area",//"line",
                                 color: colors[2],
