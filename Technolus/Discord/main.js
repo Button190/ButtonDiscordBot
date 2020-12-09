@@ -262,7 +262,10 @@ const token = process.env.DISCORD_BOT_TOKEN;
                     if (reply != ""){ msg.channel.send(reply); }
                     
                 }else{ // anything else, just post a random tenor image based on the msg content
-                    const images = await Tenor.getTenorImages(msg.content.replace(/^./,''));
+                    let images = await Tenor.getTenorImages(msg.content.replace(/^./,''));
+                    if (!images.length){
+                        images = await Tenor.getTenorImagesFrontPage(msg.content.replace(/^./,''));
+                    }
                     let randomIndex = Math.floor(Math.random() * images.length); 
                     const randomImage = images[randomIndex];
                     //console.log(randomImage);
