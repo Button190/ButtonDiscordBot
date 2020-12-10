@@ -24,7 +24,9 @@ const path = require('path');
   /*  EXPRESS */
 
   app.use(cors({ 
-    origin: process.env.URL,
+    credentials: true,
+    origin:  '*', // true, //process.env.URL,
+    exposedHeaders: '*',
     credentials: true
 }));
 
