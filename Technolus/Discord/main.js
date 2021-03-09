@@ -105,7 +105,8 @@ const token = process.env.DISCORD_BOT_TOKEN;
                 )
 
             
-            } else if (/^;tor\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
+            //} else if (/^;tor\s+.+/i.test(msg.content) && msg.author.id === '736086531491627080' ) { // anything else preceeded by a semicolon and an equal sign
+            } else if ( /^;tor\s+.+/i.test(msg.content) ) { // anything else preceeded by a semicolon and an equal sign
                 
                 const torSearchTerm = /^;tor\s+(.+)/.exec(msg.content)[1];
                 const torResult = await Torrents.getTorrent( torSearchTerm );
