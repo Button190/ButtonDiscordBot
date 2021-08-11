@@ -83,7 +83,7 @@ const token = process.env.DISCORD_BOT_TOKEN;
             //    console.log(msg.author.username);
             //}
             
-            if (channel.name === "random") {
+            if (channel.name === "random" || channel.id === "874935762292973629/875003799645868042" ) {
 
                 const TenorSearchTerm = Phrases.getRandomPhrase(path.join(__dirname, './settings/tenor-search-terms'));
 
