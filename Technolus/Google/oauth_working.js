@@ -48,6 +48,9 @@ let keys = {
   'redirect_uris':[process.env.GOOGLE_OAUTH_REDIRECT]
 };
 
+//console.log(keys.redirect_uris[0]);
+
+
 /**
  * Create a new OAuth2 client with the configured keys.
  */
@@ -153,25 +156,53 @@ async function runActual(client) {
 
 const scopes = [
   'https://www.googleapis.com/auth/userinfo.email',
-  // 'https://www.googleapis.com/auth/plus.me',
-  // 'https://www.googleapis.com/auth/admin.directory.user',
+
+
+  // // 'https://www.googleapis.com/auth/plus.me',
+  // // 'https://www.googleapis.com/auth/admin.directory.user',
   
-  // 'https://www.googleapis.com/auth/drive',
-  // 'https://www.googleapis.com/auth/spreadsheets',
+  // // 'https://www.googleapis.com/auth/drive',
+  // // 'https://www.googleapis.com/auth/spreadsheets',
   
-  // 'https://www.googleapis.com/auth/cloud-platform',
+  // // 'https://www.googleapis.com/auth/cloud-platform',
   
+  // 'https://www.googleapis.com/auth/fitness.activity.write',
+  // // 'https://www.googleapis.com/auth/fitness.blood_glucose.write',
+  // // 'https://www.googleapis.com/auth/fitness.blood_pressure.write',
+  // // 'https://www.googleapis.com/auth/fitness.body.write',
+  // // 'https://www.googleapis.com/auth/fitness.body_temperature.write',
+  // 'https://www.googleapis.com/auth/fitness.heart_rate.write',
+  // // 'https://www.googleapis.com/auth/fitness.location.write',
+  // // 'https://www.googleapis.com/auth/fitness.nutrition.write',
+  // // 'https://www.googleapis.com/auth/fitness.oxygen_saturation.write',
+  // // 'https://www.googleapis.com/auth/fitness.reproductive_health.write',
+  // // 'https://www.googleapis.com/auth/fitness.sleep.write',
+
+
+  'https://www.googleapis.com/auth/fitness.activity.read',
   'https://www.googleapis.com/auth/fitness.activity.write',
-  // 'https://www.googleapis.com/auth/fitness.blood_glucose.write',
-  // 'https://www.googleapis.com/auth/fitness.blood_pressure.write',
-  // 'https://www.googleapis.com/auth/fitness.body.write',
-  // 'https://www.googleapis.com/auth/fitness.body_temperature.write',
+  'https://www.googleapis.com/auth/fitness.blood_glucose.read',
+  'https://www.googleapis.com/auth/fitness.blood_glucose.write',
+  'https://www.googleapis.com/auth/fitness.blood_pressure.read',
+  'https://www.googleapis.com/auth/fitness.blood_pressure.write',
+  'https://www.googleapis.com/auth/fitness.body.read',
+  'https://www.googleapis.com/auth/fitness.body.write',
+  'https://www.googleapis.com/auth/fitness.body_temperature.read',
+  'https://www.googleapis.com/auth/fitness.body_temperature.write',
+  'https://www.googleapis.com/auth/fitness.heart_rate.read',
   'https://www.googleapis.com/auth/fitness.heart_rate.write',
-  // 'https://www.googleapis.com/auth/fitness.location.write',
-  // 'https://www.googleapis.com/auth/fitness.nutrition.write',
-  // 'https://www.googleapis.com/auth/fitness.oxygen_saturation.write',
-  // 'https://www.googleapis.com/auth/fitness.reproductive_health.write',
-  // 'https://www.googleapis.com/auth/fitness.sleep.write',
+  'https://www.googleapis.com/auth/fitness.location.read',
+  'https://www.googleapis.com/auth/fitness.location.write',
+  'https://www.googleapis.com/auth/fitness.nutrition.read',
+  'https://www.googleapis.com/auth/fitness.nutrition.write',
+  'https://www.googleapis.com/auth/fitness.oxygen_saturation.read',
+  'https://www.googleapis.com/auth/fitness.oxygen_saturation.write',
+  'https://www.googleapis.com/auth/fitness.reproductive_health.read',
+  'https://www.googleapis.com/auth/fitness.reproductive_health.write',
+  'https://www.googleapis.com/auth/fitness.sleep.read',
+  'https://www.googleapis.com/auth/fitness.sleep.write',
+
+
 ];
 
 authenticate(scopes)

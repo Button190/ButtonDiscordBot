@@ -29,6 +29,16 @@ const path = require('path');
     exposedHeaders: '*',
     credentials: true
 }));
+// app.use((req, res, next) => {
+//   res.header("Access-Control-Allow-Origin", "*");
+//   res.header(
+//     "Access-Control-Allow-Headers",
+//     "Authorization, X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Allow-Request-Method"
+//   );
+//   res.header("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE");
+//   res.header("Allow", "GET, POST, OPTIONS, PUT, DELETE");
+//   next();
+//   });
 
   // Static files
   app.use(express.static(path.join(__dirname,'Public')));
@@ -54,6 +64,7 @@ const path = require('path');
 
   // App setup
   const PORT = process.env.PORT || 8080;
+  console.log(process.env.URL);
   app.listen(PORT, () => console.log(`HTTP server is online! Listening on: ${process.env.URL.replace(/:\d+/g,"")}:${PORT}`));
 
 
@@ -67,8 +78,10 @@ const path = require('path');
 
 
   userCreds = {
-    accessToken: 'ya29.a0AfH6SMAhpiUPi5e1sU3n6UPWi3GPz_k0itSdyz9PxDW5TK6OT0GI-2xcGiBKwT9mwiKyClrOA5Nf6LpsDnav8cJESVpz38Cii1GcF3u6L5bwfqFbKOg_gYVIIuwTWyDBxiRTq3yzRZpSLOIFr6B9p1_uxQ_D5kpB4J3RumAkluA',
-    refreshToken: '1//03KycQF-C1u4HCgYIARAAGAMSNwF-L9IrM9NQYHfdZbgIPNTpaVqrLO2YXQZQPySnEoHxFTWEr6DwtJ4AAHuJ8pINTEXAEUjx2Mw'
+    //accessToken: 'ya29.a0AfH6SMAhpiUPi5e1sU3n6UPWi3GPz_k0itSdyz9PxDW5TK6OT0GI-2xcGiBKwT9mwiKyClrOA5Nf6LpsDnav8cJESVpz38Cii1GcF3u6L5bwfqFbKOg_gYVIIuwTWyDBxiRTq3yzRZpSLOIFr6B9p1_uxQ_D5kpB4J3RumAkluA',
+    //refreshToken: '1//03KycQF-C1u4HCgYIARAAGAMSNwF-L9IrM9NQYHfdZbgIPNTpaVqrLO2YXQZQPySnEoHxFTWEr6DwtJ4AAHuJ8pINTEXAEUjx2Mw'
+    accessToken: 'ya29.a0ARrdaM84UsjKRpgWv1yzrd8zBRHAKEEZoep4-bcCMVSMhoPQh1ZgZwQyeiZY_x1clTaKPD5A3u2_HBDh1sOnJSpzg3-H6Svxy8kLmB9EBYzpvbj_mOSA5ZU_ZwJm-ECYcM7UB-_6iyMtenpnaeOXBN58eMzA',
+    refreshToken: '1//03A-Kp3zWyhNhCgYIARAAGAMSNwF-L9IrzzRvPkuP_5PoxZguJoq4R9WAiU7Z2HBtXyM65jOOlSXkDG_s3Y213FcvXsaVD8k-8VE',
   }
 
   userProfile = {
