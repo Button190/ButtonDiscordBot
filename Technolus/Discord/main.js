@@ -162,8 +162,8 @@ const token = process.env.DISCORD_BOT_TOKEN;
                     .setColor('#0099ff')
                     .setTitle('Here is an embed for you!')
                     .setURL('https://discord.js.org/')
-                    .setAuthor('Technolus', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
-                    .setDescription('We are Technolus')
+                    .setAuthor('Button', 'https://i.imgur.com/wSTFkRM.png', 'https://discord.js.org')
+                    .setDescription('We are Button')
                     .setThumbnail('https://i.imgur.com/wSTFkRM.png')
                     .addFields(
                         { name: 'Regular field title', value: 'Some value here' },
