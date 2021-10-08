@@ -7,7 +7,7 @@ https://discord.com/developers/
 https://discordapi.com/permissions.html#281600
 
 // pre built link to add bot to server (with proper permissions to post messages):
-https://discord.com/oauth2/authorize?client_id=778437294058111016&scope=bot&permissions=281600
+https://discord.com/oauth2/authorize?client_id=896064287540379719&scope=bot&permissions=281600
 
 */
 
